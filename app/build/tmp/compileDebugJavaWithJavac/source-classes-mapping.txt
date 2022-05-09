@@ -1,0 +1,12 @@
+com/example/happysejong/BuildConfig.java
+ com.example.happysejong.BuildConfig
+com/example/happysejong/databinding/ActivityMainBinding.java
+ com.example.happysejong.databinding.ActivityMainBinding
+com/example/happysejong/databinding/ActivityChatBinding.java
+ com.example.happysejong.databinding.ActivityChatBinding
+com/example/happysejong/databinding/FragmentSignUpBinding.java
+ com.example.happysejong.databinding.FragmentSignUpBinding
+com/example/happysejong/databinding/ActivityLoginBinding.java
+ com.example.happysejong.databinding.ActivityLoginBinding
+com/example/happysejong/databinding/FragmentLoginBinding.java
+ com.example.happysejong.databinding.FragmentLoginBinding
