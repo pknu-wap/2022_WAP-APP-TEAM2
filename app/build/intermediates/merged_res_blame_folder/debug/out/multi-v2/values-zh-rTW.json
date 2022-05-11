@@ -4,24 +4,24 @@
             "outputFile": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\5ed10f7a6835929bd0006118ca64d6b7\\transformed\\core-1.7.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\ad918f0605069995cbae0ff15f4f41e4\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "98",
+                        "endOffsets": "297"
                     },
                     "to": {
-                        "startLines": "108",
+                        "startLines": "45",
                         "startColumns": "4",
-                        "startOffsets": "9127",
-                        "endColumns": "100",
-                        "endOffsets": "9223"
+                        "startOffsets": "4181",
+                        "endColumns": "102",
+                        "endOffsets": "4279"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\9afd2d1725618264f1243ba653aca1d0\\transformed\\material-1.5.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\3de672b507f018fd0c245147e62c5a79\\transformed\\material-1.5.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\2032c293492e0301f64b5967b874f7e8\\transformed\\jetified-play-services-base-17.1.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\7f1523b5adcfab9fc826b6ec9efd2ed2\\transformed\\jetified-play-services-base-17.1.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\9f7f55d9600a7f3fe27913901251f662\\transformed\\appcompat-1.4.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\59cc30cadce8dad7ce5db04775ca16d5\\transformed\\appcompat-1.4.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\c281c2ad365110fe0fd8adb2bb18e274\\transformed\\navigation-ui-2.4.0-beta02\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\7d9ade82a90132044dd894aeb0707c3e\\transformed\\core-1.7.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "108",
+                        "startColumns": "4",
+                        "startOffsets": "9127",
+                        "endColumns": "100",
+                        "endOffsets": "9223"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\095d40fa7b8538e68e633f0f404cc230\\transformed\\navigation-ui-2.4.2\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -88,23 +105,6 @@
                         "startOffsets": "8780,8879",
                         "endColumns": "98,99",
                         "endOffsets": "8874,8974"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\63e860268d81bcffa348e914f650dabf\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "199",
-                        "endColumns": "98",
-                        "endOffsets": "297"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4181",
-                        "endColumns": "102",
-                        "endOffsets": "4279"
                     }
                 }
             ]

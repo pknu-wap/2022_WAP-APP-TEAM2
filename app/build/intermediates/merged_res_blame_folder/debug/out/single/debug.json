@@ -24,10 +24,6 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_button.png.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\login_button.png"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_login_button.png.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable-v24\\login_button.png"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",

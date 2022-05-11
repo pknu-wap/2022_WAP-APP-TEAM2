@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\9f7f55d9600a7f3fe27913901251f662\\transformed\\appcompat-1.4.1\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\59cc30cadce8dad7ce5db04775ca16d5\\transformed\\appcompat-1.4.1\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\c281c2ad365110fe0fd8adb2bb18e274\\transformed\\navigation-ui-2.4.0-beta02\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
-                    },
-                    "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2843,2955",
-                        "endColumns": "111,119",
-                        "endOffsets": "2950,3070"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\5ed10f7a6835929bd0006118ca64d6b7\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\7d9ade82a90132044dd894aeb0707c3e\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "3161",
                         "endColumns": "100",
                         "endOffsets": "3257"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\095d40fa7b8538e68e633f0f404cc230\\transformed\\navigation-ui-2.4.2\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2843,2955",
+                        "endColumns": "111,119",
+                        "endOffsets": "2950,3070"
                     }
                 }
             ]
