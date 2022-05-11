@@ -20,12 +20,12 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final FragmentContainerView navHostFragment;
+  public final FragmentContainerView loginNavHostFragment;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView navHostFragment) {
+      @NonNull FragmentContainerView loginNavHostFragment) {
     this.rootView = rootView;
-    this.navHostFragment = navHostFragment;
+    this.loginNavHostFragment = loginNavHostFragment;
   }
 
   @Override
@@ -55,13 +55,13 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.nav_host_fragment;
-      FragmentContainerView navHostFragment = ViewBindings.findChildViewById(rootView, id);
-      if (navHostFragment == null) {
+      id = R.id.login_nav_host_fragment;
+      FragmentContainerView loginNavHostFragment = ViewBindings.findChildViewById(rootView, id);
+      if (loginNavHostFragment == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, navHostFragment);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, loginNavHostFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

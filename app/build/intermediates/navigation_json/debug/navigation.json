@@ -1,6 +1,11 @@
 [
   {
-    "name": "nav_graph",
+    "name": "login_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "main_nav_graph",
     "navigationXmlIds": [],
     "deepLinks": []
   }
