@@ -1,5 +1,6 @@
 package com.example.happysejong.ui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,8 @@ import androidx.core.widget.addTextChangedListener
 import androidx.navigation.fragment.findNavController
 import com.example.happysejong.databinding.FragmentLoginBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class LoginFragment : Fragment() {
 
@@ -22,6 +25,7 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        auth = Firebase.auth
         initLoginButton()
         initEmailAndPasswordEditText()
         initSignUpTextView()
@@ -52,7 +56,9 @@ class LoginFragment : Fragment() {
         }
     }
     private fun handleSuccessLogin(){
-
+        Toast.makeText(activity, "로그인 되었습니다.", Toast.LENGTH_SHORT).show()
+        val intent = Intent(activity, MainActivity::class.java)
+        startActivity(intent)
     }
     private fun initSignUpTextView(){
         binding.signUpTextView.setOnClickListener{
