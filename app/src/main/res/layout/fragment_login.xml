@@ -35,15 +35,16 @@
         app:srcCompat="@drawable/character" />
 
     <ImageButton
-        android:id="@+id/signInButton"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginEnd="55dp"
+        android:id="@+id/loginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/passwordEditText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/passwordEditText"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
         app:srcCompat="@drawable/login_button" />
 
@@ -71,7 +72,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView26"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
     <TextView
         android:id="@+id/textView26"
