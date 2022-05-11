@@ -26,7 +26,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.HappySejong" >
         <activity
-            android:name="com.example.happysejong.ui.LoginActivity"
+            android:name="com.example.happysejong.ui.SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.happysejong.ui.users.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" >
             <intent-filter>
@@ -40,8 +43,7 @@
             android:exported="true" />
         <activity
             android:name="com.example.happysejong.ui.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -57,7 +59,13 @@
                 android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
@@ -118,6 +126,11 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
@@ -133,11 +146,6 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

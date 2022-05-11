@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\login_nav_graph.xml","javaFiles":["com.example.happysejong.ui.LoginFragmentDirections","com.example.happysejong.ui.SignUpFragmentDirections"]},{"navFile":"src\\main\\res\\navigation\\main_nav_graph.xml","javaFiles":[]}]
+[{"navFile":"src\\main\\res\\navigation\\login_nav_graph.xml","javaFiles":["com.example.happysejong.ui.users.LoginFragmentDirections","com.example.happysejong.ui.users.SignUpFragmentDirections"]},{"navFile":"src\\main\\res\\navigation\\main_nav_graph.xml","javaFiles":[]}]

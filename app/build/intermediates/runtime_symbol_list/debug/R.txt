@@ -2833,6 +2833,7 @@ int id homeFragment 0x7f0800de
 int id homeFragment2 0x7f0800df
 int id homeFragment3 0x7f0800e0
 int id homeFragment4 0x7f0800e1
+int id homeFragment5 0x7f08020f
 int id honorRequest 0x7f0800e2
 int id horizontal_only 0x7f0800e3
 int id icon 0x7f0800e4
@@ -3013,7 +3014,6 @@ int id search_voice_btn 0x7f080192
 int id select_dialog_listview 0x7f080193
 int id selected 0x7f080194
 int id selection_type 0x7f080195
-int id settingFragment 0x7f080196
 int id sharedValueSet 0x7f080197
 int id sharedValueUnset 0x7f080198
 int id shortcut 0x7f080199
@@ -3221,9 +3221,9 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_chat 0x7f0b001c
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e
+int layout activity_setting 0x7f0b0085
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020
 int layout custom_dialog 0x7f0b0021
@@ -3244,7 +3244,6 @@ int layout design_text_input_end_icon 0x7f0b002f
 int layout design_text_input_start_icon 0x7f0b0030
 int layout fragment_home 0x7f0b0031
 int layout fragment_login 0x7f0b0032
-int layout fragment_setting 0x7f0b0033
 int layout fragment_sign_up 0x7f0b0034
 int layout m3_alert_dialog 0x7f0b0035
 int layout m3_alert_dialog_actions 0x7f0b0036

@@ -1,4 +1,4 @@
-package com.example.happysejong.ui
+package com.example.happysejong.ui.users
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,12 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.navigation.NavDirections
 import androidx.core.widget.addTextChangedListener
+import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.example.happysejong.databinding.FragmentLoginBinding
+import com.example.happysejong.ui.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 class LoginFragment : Fragment() {
@@ -56,7 +58,15 @@ class LoginFragment : Fragment() {
         }
     }
     private fun handleSuccessLogin(){
-        Toast.makeText(activity, "로그인 되었습니다.", Toast.LENGTH_SHORT).show()
+        if(auth.currentUser == null){
+            Toast.makeText(activity, "로그인에 실패하였습니다.", Toast.LENGTH_SHORT).show()
+            return
+        }
+        val userId = auth.currentUser?.uid.orEmpty()
+        val currentUserDB = Firebase.database.reference.child("Users").child(userId)
+        val user = mutableMapOf<String, Any>()
+        user["userId"] = userId
+        currentUserDB.updateChildren(user)
         val intent = Intent(activity, MainActivity::class.java)
         startActivity(intent)
     }

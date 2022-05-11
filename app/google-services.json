@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "721486229214",
+    "firebase_url": "https://wapapp2-default-rtdb.firebaseio.com",
     "project_id": "wapapp2",
     "storage_bucket": "wapapp2.appspot.com"
   },

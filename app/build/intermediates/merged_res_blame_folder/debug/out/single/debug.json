@@ -4,6 +4,10 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\navigation_main_nav_graph.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\navigation\\main_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -52,20 +56,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_setting.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_setting.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_bar_menu.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\menu\\bottom_bar_menu.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",

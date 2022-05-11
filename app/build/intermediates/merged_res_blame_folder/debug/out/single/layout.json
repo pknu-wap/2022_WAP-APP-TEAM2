@@ -4,16 +4,8 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_chat.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_up.xml",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
-    },
-    {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_setting.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
@@ -26,5 +18,9 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_setting.xml"
     }
 ]

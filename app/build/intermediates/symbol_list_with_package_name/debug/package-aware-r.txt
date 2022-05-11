@@ -2834,6 +2834,7 @@ id homeFragment
 id homeFragment2
 id homeFragment3
 id homeFragment4
+id homeFragment5
 id honorRequest
 id horizontal_only
 id icon
@@ -3014,7 +3015,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id settingFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3222,9 +3222,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_chat
 layout activity_login
 layout activity_main
+layout activity_setting
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3245,7 +3245,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
 layout fragment_login
-layout fragment_setting
 layout fragment_sign_up
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

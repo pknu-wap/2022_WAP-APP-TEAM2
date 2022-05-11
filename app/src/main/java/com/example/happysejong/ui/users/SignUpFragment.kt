@@ -1,4 +1,4 @@
-package com.example.happysejong.ui
+package com.example.happysejong.ui.users
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
