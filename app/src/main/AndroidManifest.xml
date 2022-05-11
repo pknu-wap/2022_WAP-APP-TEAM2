@@ -13,12 +13,6 @@
             android:name=".ui.ChatActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.MyPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.MapActivity"
-            android:exported="true" />
-        <activity
             android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
