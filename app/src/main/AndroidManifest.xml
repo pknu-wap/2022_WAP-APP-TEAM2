@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappySejong">
         <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.HappySejong.NoActionBar" />
+        <activity
             android:name=".ui.ChatActivity"
             android:exported="true" />
         <activity
