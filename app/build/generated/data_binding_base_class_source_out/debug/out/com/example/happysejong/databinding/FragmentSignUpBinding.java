@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -28,23 +29,37 @@ public final class FragmentSignUpBinding implements ViewBinding {
   public final EditText registerConfirmEditText;
 
   @NonNull
+  public final TextView registerDormitoryTextView;
+
+  @NonNull
   public final EditText registerEmailEditText;
 
   @NonNull
   public final EditText registerPasswordEditText;
 
   @NonNull
+  public final Button selectDormitoryButton;
+
+  @NonNull
   public final Button signUpButton;
 
+  @NonNull
+  public final EditText textView;
+
   private FragmentSignUpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
-      @NonNull EditText registerConfirmEditText, @NonNull EditText registerEmailEditText,
-      @NonNull EditText registerPasswordEditText, @NonNull Button signUpButton) {
+      @NonNull EditText registerConfirmEditText, @NonNull TextView registerDormitoryTextView,
+      @NonNull EditText registerEmailEditText, @NonNull EditText registerPasswordEditText,
+      @NonNull Button selectDormitoryButton, @NonNull Button signUpButton,
+      @NonNull EditText textView) {
     this.rootView = rootView;
     this.imageView = imageView;
     this.registerConfirmEditText = registerConfirmEditText;
+    this.registerDormitoryTextView = registerDormitoryTextView;
     this.registerEmailEditText = registerEmailEditText;
     this.registerPasswordEditText = registerPasswordEditText;
+    this.selectDormitoryButton = selectDormitoryButton;
     this.signUpButton = signUpButton;
+    this.textView = textView;
   }
 
   @Override
@@ -86,6 +101,12 @@ public final class FragmentSignUpBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.register_dormitory_textView;
+      TextView registerDormitoryTextView = ViewBindings.findChildViewById(rootView, id);
+      if (registerDormitoryTextView == null) {
+        break missingId;
+      }
+
       id = R.id.registerEmailEditText;
       EditText registerEmailEditText = ViewBindings.findChildViewById(rootView, id);
       if (registerEmailEditText == null) {
@@ -98,14 +119,27 @@ public final class FragmentSignUpBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.select_dormitory_button;
+      Button selectDormitoryButton = ViewBindings.findChildViewById(rootView, id);
+      if (selectDormitoryButton == null) {
+        break missingId;
+      }
+
       id = R.id.signUpButton;
       Button signUpButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpButton == null) {
         break missingId;
       }
 
+      id = R.id.textView;
+      EditText textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       return new FragmentSignUpBinding((ConstraintLayout) rootView, imageView,
-          registerConfirmEditText, registerEmailEditText, registerPasswordEditText, signUpButton);
+          registerConfirmEditText, registerDormitoryTextView, registerEmailEditText,
+          registerPasswordEditText, selectDormitoryButton, signUpButton, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

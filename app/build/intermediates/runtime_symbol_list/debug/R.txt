@@ -2551,6 +2551,11 @@ int drawable design_snackbar_background 0x7f070079
 int drawable googleg_disabled_color_18 0x7f07007a
 int drawable googleg_standard_color_18 0x7f07007b
 int drawable ic_baseline_add_24 0x7f0700b5
+int drawable ic_baseline_chat_24 0x7f0700b6
+int drawable ic_baseline_home_24 0x7f0700b7
+int drawable ic_baseline_person_outline_24 0x7f0700b8
+int drawable ic_baseline_reorder_24 0x7f0700b9
+int drawable ic_baseline_search_24 0x7f0700ba
 int drawable ic_clock_black_24dp 0x7f07007c
 int drawable ic_keyboard_black_24dp 0x7f07007d
 int drawable ic_launcher_background 0x7f07007e
@@ -2614,6 +2619,7 @@ int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
 int id META 0x7f080005
+int id MenuListView 0x7f080211
 int id NO_DEBUG 0x7f080006
 int id SHIFT 0x7f080007
 int id SHOW_ALL 0x7f080008
@@ -2724,13 +2730,16 @@ int id cache_measures 0x7f08006f
 int id callMeasure 0x7f080070
 int id cancel_action 0x7f080071
 int id cancel_button 0x7f080072
+int id cardView 0x7f080212
 int id carryVelocity 0x7f080073
+int id categoryFragment 0x7f080213
 int id center 0x7f080074
 int id center_horizontal 0x7f080075
 int id center_vertical 0x7f080076
 int id chain 0x7f080077
 int id chain2 0x7f080078
 int id chains 0x7f080079
+int id chatsFragment 0x7f080214
 int id checkbox 0x7f08007a
 int id checked 0x7f08007b
 int id chip 0x7f08007c
@@ -2782,6 +2791,7 @@ int id disableIntraAutoTransition 0x7f0800a9
 int id disablePostScroll 0x7f0800aa
 int id disableScroll 0x7f0800ab
 int id disjoint 0x7f0800ac
+int id dormitoryTextView 0x7f080215
 int id dragAnticlockwise 0x7f0800ad
 int id dragClockwise 0x7f0800ae
 int id dragDown 0x7f0800af
@@ -2832,9 +2842,6 @@ int id hideable 0x7f0800db
 int id home 0x7f0800dc
 int id homeAsUp 0x7f0800dd
 int id homeFragment 0x7f0800de
-int id homeFragment2 0x7f0800df
-int id homeFragment3 0x7f0800e0
-int id homeFragment4 0x7f0800e1
 int id homeFragment5 0x7f08020f
 int id honorRequest 0x7f0800e2
 int id horizontal_only 0x7f0800e3
@@ -2901,6 +2908,8 @@ int id material_timepicker_ok_button 0x7f08011f
 int id material_timepicker_view 0x7f080120
 int id material_value_index 0x7f080121
 int id media_actions 0x7f080122
+int id menu_textView 0x7f080216
+int id menu_titleView 0x7f080217
 int id message 0x7f080123
 int id middle 0x7f080124
 int id mini 0x7f080125
@@ -2935,6 +2944,7 @@ int id mtrl_picker_text_input_range_start 0x7f080141
 int id mtrl_picker_title_text 0x7f080142
 int id mtrl_view_tag_bottom_padding 0x7f080143
 int id multiply 0x7f080144
+int id myPageFragment 0x7f080218
 int id nav_controller_view_tag 0x7f080145
 int id nav_graph 0x7f080146
 int id nav_host_fragment_container 0x7f080147
@@ -2985,6 +2995,7 @@ int id rectangles 0x7f080173
 int id registerConfirmEditText 0x7f080174
 int id registerEmailEditText 0x7f080175
 int id registerPasswordEditText 0x7f080176
+int id register_dormitory_textView 0x7f080219
 int id reverseSawtooth 0x7f080177
 int id right 0x7f080178
 int id rightToLeft 0x7f080179
@@ -3003,6 +3014,7 @@ int id scrollIndicatorDown 0x7f080185
 int id scrollIndicatorUp 0x7f080186
 int id scrollView 0x7f080187
 int id scrollable 0x7f080188
+int id searchButton 0x7f08021a
 int id search_badge 0x7f080189
 int id search_bar 0x7f08018a
 int id search_button 0x7f08018b
@@ -3014,6 +3026,7 @@ int id search_plate 0x7f080190
 int id search_src_text 0x7f080191
 int id search_voice_btn 0x7f080192
 int id select_dialog_listview 0x7f080193
+int id select_dormitory_button 0x7f08021b
 int id selected 0x7f080194
 int id selection_type 0x7f080195
 int id sharedValueSet 0x7f080197
@@ -3085,6 +3098,7 @@ int id textSpacerNoButtons 0x7f0801d8
 int id textSpacerNoTitle 0x7f0801d9
 int id textStart 0x7f0801da
 int id textTop 0x7f0801db
+int id textView 0x7f08021c
 int id textView16 0x7f0801dc
 int id textView26 0x7f0801dd
 int id textView27 0x7f0801de
@@ -3243,9 +3257,13 @@ int layout design_navigation_menu 0x7f0b002d
 int layout design_navigation_menu_item 0x7f0b002e
 int layout design_text_input_end_icon 0x7f0b002f
 int layout design_text_input_start_icon 0x7f0b0030
+int layout fragment_category 0x7f0b0086
+int layout fragment_chats 0x7f0b0087
 int layout fragment_home 0x7f0b0031
 int layout fragment_login 0x7f0b0032
+int layout fragment_my_page 0x7f0b0088
 int layout fragment_sign_up 0x7f0b0034
+int layout item_home_menu 0x7f0b0089
 int layout m3_alert_dialog 0x7f0b0035
 int layout m3_alert_dialog_actions 0x7f0b0036
 int layout m3_alert_dialog_title 0x7f0b0037

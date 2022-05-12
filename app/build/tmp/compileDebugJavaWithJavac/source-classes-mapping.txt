@@ -2,8 +2,14 @@ com/example/happysejong/ui/users/SignUpFragmentDirections.java
  com.example.happysejong.ui.users.SignUpFragmentDirections
 com/example/happysejong/BuildConfig.java
  com.example.happysejong.BuildConfig
+com/example/happysejong/databinding/ItemHomeMenuBinding.java
+ com.example.happysejong.databinding.ItemHomeMenuBinding
+com/example/happysejong/databinding/FragmentCategoryBinding.java
+ com.example.happysejong.databinding.FragmentCategoryBinding
 com/example/happysejong/databinding/ActivityMainBinding.java
  com.example.happysejong.databinding.ActivityMainBinding
+com/example/happysejong/databinding/FragmentChatsBinding.java
+ com.example.happysejong.databinding.FragmentChatsBinding
 com/example/happysejong/databinding/FragmentSignUpBinding.java
  com.example.happysejong.databinding.FragmentSignUpBinding
 com/example/happysejong/ui/users/LoginFragmentDirections.java
@@ -14,3 +20,5 @@ com/example/happysejong/databinding/ActivityLoginBinding.java
  com.example.happysejong.databinding.ActivityLoginBinding
 com/example/happysejong/databinding/FragmentLoginBinding.java
  com.example.happysejong.databinding.FragmentLoginBinding
+com/example/happysejong/databinding/FragmentMyPageBinding.java
+ com.example.happysejong.databinding.FragmentMyPageBinding

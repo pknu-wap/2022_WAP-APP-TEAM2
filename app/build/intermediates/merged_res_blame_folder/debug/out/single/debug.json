@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\navigation_main_nav_graph.xml.flat",
@@ -46,6 +50,14 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sign_up.xml.flat",
@@ -72,6 +84,18 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\bottom_bar_color.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_page.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_my_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_item_home_menu.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\item_home_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_login.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_login.xml"
     },
@@ -88,6 +112,10 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\navigation\\login_nav_graph.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_category.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_category.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -100,7 +128,15 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chats.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_chats.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_reorder_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_reorder_24.xml"
     }
 ]

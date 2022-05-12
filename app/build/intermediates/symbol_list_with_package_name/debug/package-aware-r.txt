@@ -2552,6 +2552,11 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_add_24
+drawable ic_baseline_chat_24
+drawable ic_baseline_home_24
+drawable ic_baseline_person_outline_24
+drawable ic_baseline_reorder_24
+drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2615,6 +2620,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id MenuListView
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -2725,13 +2731,16 @@ id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
+id cardView
 id carryVelocity
+id categoryFragment
 id center
 id center_horizontal
 id center_vertical
 id chain
 id chain2
 id chains
+id chatsFragment
 id checkbox
 id checked
 id chip
@@ -2783,6 +2792,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dormitoryTextView
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2833,9 +2843,6 @@ id hideable
 id home
 id homeAsUp
 id homeFragment
-id homeFragment2
-id homeFragment3
-id homeFragment4
 id homeFragment5
 id honorRequest
 id horizontal_only
@@ -2902,6 +2909,8 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id menu_textView
+id menu_titleView
 id message
 id middle
 id mini
@@ -2936,6 +2945,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myPageFragment
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -2986,6 +2996,7 @@ id rectangles
 id registerConfirmEditText
 id registerEmailEditText
 id registerPasswordEditText
+id register_dormitory_textView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3004,6 +3015,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchButton
 id search_badge
 id search_bar
 id search_button
@@ -3015,6 +3027,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id select_dormitory_button
 id selected
 id selection_type
 id sharedValueSet
@@ -3086,6 +3099,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView16
 id textView26
 id textView27
@@ -3244,9 +3258,13 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_category
+layout fragment_chats
 layout fragment_home
 layout fragment_login
+layout fragment_my_page
 layout fragment_sign_up
+layout item_home_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
