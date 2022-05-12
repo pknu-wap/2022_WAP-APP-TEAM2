@@ -3008,6 +3008,7 @@ id ratio
 id rectangles
 id registerConfirmEditText
 id registerEmailEditText
+id registerNickNameEditText
 id registerPasswordEditText
 id register_dormitory_textView
 id reverseSawtooth
@@ -3113,7 +3114,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView16
 id textView2
 id textView26

@@ -12,8 +12,9 @@ import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.example.happysejong.databinding.FragmentLoginBinding
 import com.example.happysejong.ui.MainActivity
+import com.example.happysejong.utils.DBKeys.Companion.DB_USERS
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
@@ -27,7 +28,7 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-        auth = Firebase.auth
+        auth = FirebaseAuth.getInstance()
         initLoginButton()
         initEmailAndPasswordEditText()
         initSignUpTextView()
@@ -62,11 +63,6 @@ class LoginFragment : Fragment() {
             Toast.makeText(activity, "로그인에 실패하였습니다.", Toast.LENGTH_SHORT).show()
             return
         }
-        val userId = auth.currentUser?.uid.orEmpty()
-        val currentUserDB = Firebase.database.reference.child("Users").child(userId)
-        val user = mutableMapOf<String, Any>()
-        user["userId"] = userId
-        currentUserDB.updateChildren(user)
         val intent = Intent(activity, MainActivity::class.java)
         startActivity(intent)
     }

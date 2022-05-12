@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/register_dormitory_textView" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/registerNickNameEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toStartOf="@+id/select_dormitory_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/registerNickNameEditText" />
 
     <Button
         android:id="@+id/select_dormitory_button"
