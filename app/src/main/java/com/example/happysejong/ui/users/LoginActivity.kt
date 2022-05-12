@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
     private val binding by lazy{ ActivityLoginBinding.inflate(layoutInflater)}
     private lateinit var navController: NavController
-    private lateinit var auth: FirebaseAuth = Firebase.auth
+    private var auth: FirebaseAuth = Firebase.auth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

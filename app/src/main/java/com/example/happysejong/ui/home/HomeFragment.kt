@@ -1,4 +1,4 @@
-package com.example.happysejong.ui
+package com.example.happysejong.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -17,6 +17,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_home, container, false)
+
+        return binding.root
     }
 }
