@@ -8,6 +8,10 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_article.xml",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_add_article.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chats.xml",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_chats.xml"
     },

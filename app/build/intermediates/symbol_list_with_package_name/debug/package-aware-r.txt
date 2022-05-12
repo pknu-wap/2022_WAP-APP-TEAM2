@@ -2667,6 +2667,7 @@ id action0
 id actionDown
 id actionDownUp
 id actionUp
+id action_addArticleFragment_to_homeFragment5
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2679,6 +2680,7 @@ id action_chatsFragment2_to_homeFragment5
 id action_container
 id action_context_bar
 id action_divider
+id action_homeFragment5_to_addArticleFragment
 id action_homeFragment5_to_categoryFragment2
 id action_homeFragment5_to_chatsFragment2
 id action_homeFragment5_to_myPageFragment2
@@ -2695,7 +2697,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addButton
+id addArticleButton
+id addArticleFragment
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2709,6 +2712,8 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id article_text_textView
+id article_title_textView
 id asConfigured
 id async
 id auto
@@ -2740,7 +2745,6 @@ id cancel_button
 id cardView
 id carryVelocity
 id categoryFragment
-id categoryFragment2
 id center
 id center_horizontal
 id center_vertical
@@ -2748,7 +2752,6 @@ id chain
 id chain2
 id chains
 id chatsFragment
-id chatsFragment2
 id checkbox
 id checked
 id chip
@@ -2839,6 +2842,7 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id goAddArticleButton
 id gone
 id graph
 id graph_wrap
@@ -2851,7 +2855,6 @@ id hideable
 id home
 id homeAsUp
 id homeFragment
-id homeFragment5
 id honorRequest
 id horizontal_only
 id icon
@@ -2954,7 +2957,8 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myPageFragment
-id myPageFragment2
+id my_page_dormitory_textView
+id my_page_nickname_textView
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -3045,6 +3049,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signOutButton
 id signUpButton
 id signUpFragment
 id signUpTextView
@@ -3110,6 +3115,7 @@ id textStart
 id textTop
 id textView
 id textView16
+id textView2
 id textView26
 id textView27
 id text_input_end_icon
@@ -3267,6 +3273,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_add_article
 layout fragment_category
 layout fragment_chats
 layout fragment_home
