@@ -2673,9 +2673,14 @@ int id action_bar_root 0x7f080037
 int id action_bar_spinner 0x7f080038
 int id action_bar_subtitle 0x7f080039
 int id action_bar_title 0x7f08003a
+int id action_categoryFragment2_to_homeFragment5 0x7f08021d
+int id action_chatsFragment2_to_homeFragment5 0x7f08021e
 int id action_container 0x7f08003b
 int id action_context_bar 0x7f08003c
 int id action_divider 0x7f08003d
+int id action_homeFragment5_to_categoryFragment2 0x7f08021f
+int id action_homeFragment5_to_chatsFragment2 0x7f080220
+int id action_homeFragment5_to_myPageFragment2 0x7f080221
 int id action_image 0x7f08003e
 int id action_loginFragment_to_signUpFragment 0x7f08003f
 int id action_menu_divider 0x7f080040
@@ -2683,6 +2688,7 @@ int id action_menu_presenter 0x7f080041
 int id action_mode_bar 0x7f080042
 int id action_mode_bar_stub 0x7f080043
 int id action_mode_close_button 0x7f080044
+int id action_myPageFragment2_to_homeFragment5 0x7f080222
 int id action_signUpFragment_to_loginFragment 0x7f080045
 int id action_text 0x7f080046
 int id actions 0x7f080047
@@ -2733,6 +2739,7 @@ int id cancel_button 0x7f080072
 int id cardView 0x7f080212
 int id carryVelocity 0x7f080073
 int id categoryFragment 0x7f080213
+int id categoryFragment2 0x7f080223
 int id center 0x7f080074
 int id center_horizontal 0x7f080075
 int id center_vertical 0x7f080076
@@ -2740,6 +2747,7 @@ int id chain 0x7f080077
 int id chain2 0x7f080078
 int id chains 0x7f080079
 int id chatsFragment 0x7f080214
+int id chatsFragment2 0x7f080224
 int id checkbox 0x7f08007a
 int id checked 0x7f08007b
 int id chip 0x7f08007c
@@ -2945,6 +2953,7 @@ int id mtrl_picker_title_text 0x7f080142
 int id mtrl_view_tag_bottom_padding 0x7f080143
 int id multiply 0x7f080144
 int id myPageFragment 0x7f080218
+int id myPageFragment2 0x7f080225
 int id nav_controller_view_tag 0x7f080145
 int id nav_graph 0x7f080146
 int id nav_host_fragment_container 0x7f080147

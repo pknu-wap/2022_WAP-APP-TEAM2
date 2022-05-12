@@ -2674,9 +2674,14 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_categoryFragment2_to_homeFragment5
+id action_chatsFragment2_to_homeFragment5
 id action_container
 id action_context_bar
 id action_divider
+id action_homeFragment5_to_categoryFragment2
+id action_homeFragment5_to_chatsFragment2
+id action_homeFragment5_to_myPageFragment2
 id action_image
 id action_loginFragment_to_signUpFragment
 id action_menu_divider
@@ -2684,6 +2689,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_myPageFragment2_to_homeFragment5
 id action_signUpFragment_to_loginFragment
 id action_text
 id actions
@@ -2734,6 +2740,7 @@ id cancel_button
 id cardView
 id carryVelocity
 id categoryFragment
+id categoryFragment2
 id center
 id center_horizontal
 id center_vertical
@@ -2741,6 +2748,7 @@ id chain
 id chain2
 id chains
 id chatsFragment
+id chatsFragment2
 id checkbox
 id checked
 id chip
@@ -2946,6 +2954,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myPageFragment
+id myPageFragment2
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
