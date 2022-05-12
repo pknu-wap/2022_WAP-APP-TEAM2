@@ -1,4 +1,4 @@
-package com.example.happysejong
+package com.example.happysejong.model
 
 data class ArticleModel (
     val title: String,

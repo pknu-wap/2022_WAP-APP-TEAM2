@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
-import com.example.happysejong.ArticleModel
+import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.databinding.FragmentAddArticleBinding
 import com.example.happysejong.utils.DBKeys.Companion.DB_ARTICLES
 import com.google.firebase.auth.FirebaseAuth
