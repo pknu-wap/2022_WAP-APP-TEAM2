@@ -2551,6 +2551,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_add_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2682,6 +2683,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3224,7 +3226,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
-layout activity_setting
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

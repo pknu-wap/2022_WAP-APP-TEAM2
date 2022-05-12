@@ -10,8 +10,6 @@ com/example/happysejong/ui/users/LoginFragmentDirections.java
  com.example.happysejong.ui.users.LoginFragmentDirections
 com/example/happysejong/databinding/FragmentHomeBinding.java
  com.example.happysejong.databinding.FragmentHomeBinding
-com/example/happysejong/databinding/ActivitySettingBinding.java
- com.example.happysejong.databinding.ActivitySettingBinding
 com/example/happysejong/databinding/ActivityLoginBinding.java
  com.example.happysejong.databinding.ActivityLoginBinding
 com/example/happysejong/databinding/FragmentLoginBinding.java

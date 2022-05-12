@@ -2550,6 +2550,7 @@ int drawable design_password_eye 0x7f070078
 int drawable design_snackbar_background 0x7f070079
 int drawable googleg_disabled_color_18 0x7f07007a
 int drawable googleg_standard_color_18 0x7f07007b
+int drawable ic_baseline_add_24 0x7f0700b5
 int drawable ic_clock_black_24dp 0x7f07007c
 int drawable ic_keyboard_black_24dp 0x7f07007d
 int drawable ic_launcher_background 0x7f07007e
@@ -2681,6 +2682,7 @@ int id action_text 0x7f080046
 int id actions 0x7f080047
 int id activity_chooser_view_content 0x7f080048
 int id add 0x7f080049
+int id addButton 0x7f080210
 int id adjust_height 0x7f08004a
 int id adjust_width 0x7f08004b
 int id alertTitle 0x7f08004c
@@ -3223,7 +3225,6 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e
-int layout activity_setting 0x7f0b0085
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020
 int layout custom_dialog 0x7f0b0021
