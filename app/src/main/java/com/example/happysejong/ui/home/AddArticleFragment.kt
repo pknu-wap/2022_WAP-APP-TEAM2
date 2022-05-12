@@ -22,6 +22,7 @@ class AddArticleFragment : Fragment() {
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DB_ARTICLES)
     }
+
     private lateinit var auth: FirebaseAuth
 
     override fun onCreateView(
