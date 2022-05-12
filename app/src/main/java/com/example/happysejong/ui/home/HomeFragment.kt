@@ -17,7 +17,6 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
 
-
         return binding.root
     }
 }
