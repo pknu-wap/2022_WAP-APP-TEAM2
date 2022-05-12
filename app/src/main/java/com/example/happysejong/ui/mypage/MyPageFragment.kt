@@ -44,9 +44,9 @@ class MyPageFragment : Fragment() {
     private fun getUsersInformation(){
         val userId = auth.currentUser?.uid.orEmpty()
         currentUserDB.child(userId).get().addOnSuccessListener {
-            val model = it.value
-            binding.myPageNicknameTextView.text = model.toString()
-            binding.myPageDormitoryTextView.text = model.toString()
+            val model = it.value.toString().split(",")
+            binding.myPageNicknameTextView.text = model[0]
+            binding.myPageDormitoryTextView.text = model[1]
         }
     }
 }
