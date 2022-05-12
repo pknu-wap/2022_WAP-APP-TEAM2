@@ -101,9 +101,10 @@
         android:layout_marginEnd="50dp"
         android:backgroundTint="@color/navy"
         android:text="선택"
+        app:layout_constraintBottom_toBottomOf="@+id/register_dormitory_textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/register_dormitory_textView"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintTop_toTopOf="@+id/register_dormitory_textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
