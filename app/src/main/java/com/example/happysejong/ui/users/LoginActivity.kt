@@ -25,7 +25,6 @@ class LoginActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.login_nav_host_fragment) as NavHostFragment
 
         navController = navHostFragment.navController
-
     }
     override fun onStart(){
         super.onStart()
