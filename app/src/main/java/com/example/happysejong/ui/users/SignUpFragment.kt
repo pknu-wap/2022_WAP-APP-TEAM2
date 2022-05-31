@@ -37,7 +37,6 @@ class SignUpFragment : Fragment() {
     }
     private fun initSignUpButton(){
         binding.signUpButton.setOnClickListener {
-
             val email = binding.registerEmailEditText.text.toString()
             val password = binding.registerPasswordEditText.text.toString()
             val confirm = binding.registerConfirmEditText.text.toString()
@@ -50,11 +49,13 @@ class SignUpFragment : Fragment() {
                         if (task.isSuccessful) {
                             successSignUpHandle(nickname, dormitory)
                         } else {
-                            Toast.makeText(activity, "회원가입이 실패하였습니다.", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(activity,
+                                "회원가입이 실패하였습니다.", Toast.LENGTH_SHORT).show()
                         }
                     }
             }else{
-                Toast.makeText(activity, "비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,
+                    "비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -63,7 +64,8 @@ class SignUpFragment : Fragment() {
         val userId = auth.currentUser?.uid.orEmpty()
         val model = UserModel(nickName, dormitory)
         currentUserDB.child(userId).setValue(model)
-        val directions: NavDirections = SignUpFragmentDirections.actionSignUpFragmentToLoginFragment()
+        val directions: NavDirections = SignUpFragmentDirections.
+        actionSignUpFragmentToLoginFragment()
         findNavController().navigate(directions)
     }
 }

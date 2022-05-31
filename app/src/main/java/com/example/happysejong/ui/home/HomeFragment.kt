@@ -53,15 +53,17 @@ class HomeFragment : Fragment() {
 
         articleList.clear()
         articleAdapter = ArticleAdapter(onItemClicked = { model ->
-            val directions : NavDirections = HomeFragmentDirections.actionHomeFragment5ToChatsFragment2()
+            val directions : NavDirections = HomeFragmentDirections.
+            actionHomeFragment5ToChatsFragment2()
             findNavController().navigate(directions)
         })
         binding.MenuListView.layoutManager = LinearLayoutManager(context)
         binding.MenuListView.adapter = articleAdapter
         articleDB.addChildEventListener(listener)
-
+    
         binding.goAddArticleButton.setOnClickListener{
-            val directions : NavDirections = HomeFragmentDirections.actionHomeFragment5ToAddArticleFragment()
+            val directions : NavDirections = HomeFragmentDirections.
+            actionHomeFragment5ToAddArticleFragment()
             findNavController().navigate(directions)
         }
 
