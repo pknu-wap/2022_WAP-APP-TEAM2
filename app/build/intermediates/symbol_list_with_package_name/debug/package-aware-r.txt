@@ -2553,6 +2553,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_add_24
 drawable ic_baseline_chat_24
+drawable ic_baseline_check_24
 drawable ic_baseline_home_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_reorder_24
@@ -2699,6 +2700,8 @@ id activity_chooser_view_content
 id add
 id addArticleButton
 id addArticleFragment
+id addChatsCardView
+id addChatsEditText
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2837,6 +2840,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton
 id forever
 id fragment_container_view_tag
 id frost
@@ -3115,7 +3119,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView16
 id textView26
 id textView27

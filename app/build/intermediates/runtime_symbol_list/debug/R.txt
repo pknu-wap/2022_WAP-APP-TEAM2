@@ -2552,6 +2552,7 @@ int drawable googleg_disabled_color_18 0x7f07007a
 int drawable googleg_standard_color_18 0x7f07007b
 int drawable ic_baseline_add_24 0x7f0700b5
 int drawable ic_baseline_chat_24 0x7f0700b6
+int drawable ic_baseline_check_24 0x7f0700bb
 int drawable ic_baseline_home_24 0x7f0700b7
 int drawable ic_baseline_person_outline_24 0x7f0700b8
 int drawable ic_baseline_reorder_24 0x7f0700b9
@@ -2698,6 +2699,8 @@ int id activity_chooser_view_content 0x7f080048
 int id add 0x7f080049
 int id addArticleButton 0x7f080228
 int id addArticleFragment 0x7f080229
+int id addChatsCardView 0x7f080235
+int id addChatsEditText 0x7f080236
 int id adjust_height 0x7f08004a
 int id adjust_width 0x7f08004b
 int id alertTitle 0x7f08004c
@@ -2836,6 +2839,7 @@ int id fitToContents 0x7f0800ca
 int id fixed 0x7f0800cb
 int id flip 0x7f0800cc
 int id floating 0x7f0800cd
+int id floatingActionButton 0x7f080237
 int id forever 0x7f0800ce
 int id fragment_container_view_tag 0x7f0800cf
 int id frost 0x7f0800d0
@@ -3114,7 +3118,6 @@ int id textSpacerNoButtons 0x7f0801d8
 int id textSpacerNoTitle 0x7f0801d9
 int id textStart 0x7f0801da
 int id textTop 0x7f0801db
-int id textView 0x7f08021c
 int id textView16 0x7f0801dc
 int id textView26 0x7f0801dd
 int id textView27 0x7f0801de
