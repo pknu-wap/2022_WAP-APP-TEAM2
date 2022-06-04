@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -62,6 +62,10 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sign_up.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chats_sender.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\item_chats_sender.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_bar_menu.xml.flat",
@@ -134,6 +138,10 @@
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chats.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chats_receiver.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\item_chats_receiver.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",

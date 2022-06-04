@@ -2746,6 +2746,8 @@ id callMeasure
 id cancel_action
 id cancel_button
 id cardView
+id card_gchat_message_me
+id card_gchat_message_other
 id carryVelocity
 id categoryFragment
 id center
@@ -2870,6 +2872,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView12
+id image_gchat_profile_other
 id immediateStop
 id included
 id info
@@ -2888,6 +2891,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_gchat_container_me
+id layout_gchat_container_other
 id left
 id leftToRight
 id legacy
@@ -3122,6 +3127,13 @@ id textTop
 id textView16
 id textView26
 id textView27
+id text_gchat_date_me
+id text_gchat_date_other
+id text_gchat_message_me
+id text_gchat_message_other
+id text_gchat_timestamp_me
+id text_gchat_timestamp_other
+id text_gchat_user_other
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3284,6 +3296,8 @@ layout fragment_home
 layout fragment_login
 layout fragment_my_page
 layout fragment_sign_up
+layout item_chats_receiver
+layout item_chats_sender
 layout item_home_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
