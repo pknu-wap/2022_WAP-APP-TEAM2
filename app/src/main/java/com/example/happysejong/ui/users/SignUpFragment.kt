@@ -62,7 +62,7 @@ class SignUpFragment : Fragment() {
     private fun successSignUpHandle(nickName: String, dormitory: String){
         Toast.makeText(activity, "회원가입 되었습니다.", Toast.LENGTH_SHORT).show()
         val userId = auth.currentUser?.uid.orEmpty()
-        val model = UserModel(nickName, dormitory)
+        val model = UserModel(nickName, dormitory, userId, 0)
         currentUserDB.child(userId).setValue(model)
         val directions: NavDirections = SignUpFragmentDirections.
         actionSignUpFragmentToLoginFragment()

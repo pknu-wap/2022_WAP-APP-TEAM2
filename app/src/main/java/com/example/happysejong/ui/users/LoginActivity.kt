@@ -28,7 +28,6 @@ class LoginActivity : AppCompatActivity() {
     }
     override fun onStart(){
         super.onStart()
-        auth.currentUser.uid
         if(auth.currentUser != null){
             startActivity(Intent(this, MainActivity::class.java))
             finish()
