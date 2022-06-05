@@ -7,12 +7,14 @@
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3026041666666667" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.3964102564102564" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.3964102564102564" />
+        <entry key="..\:/Users/jaino/2022wap/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.3964102564102564" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/activity_chat.xml" value="0.290625" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/activity_login.xml" value="0.2760416666666667" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/activity_main.xml" value="0.38645833333333335" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/activity_map.xml" value="0.290625" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/activity_my_page.xml" value="0.290625" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/fragment_add_article.xml" value="0.5" />
+        <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/fragment_category.xml" value="0.38645833333333335" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/fragment_chats.xml" value="0.3015625" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/fragment_home.xml" value="0.2453125" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/fragment_login.xml" value="0.33" />
