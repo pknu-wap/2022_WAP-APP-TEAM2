@@ -43,10 +43,11 @@ class MyPageFragment : Fragment() {
     }
     private fun getUsersInformation(){
         val userId = auth.currentUser?.uid.orEmpty()
-        currentUserDB.child(userId).get().addOnSuccessListener {
-            val model = it.value.toString().split(",")
-            binding.myPageNicknameTextView.text = model[0]
-            binding.myPageDormitoryTextView.text = model[1]
+        currentUserDB.child(userId).child("dormitory").get().addOnSuccessListener {
+            binding.myPageDormitoryTextView.text = it.value.toString()
+        }
+        currentUserDB.child(userId).child("nickName").get().addOnSuccessListener{
+            binding.myPageNicknameTextView.text = it.value.toString()
         }
     }
 }
