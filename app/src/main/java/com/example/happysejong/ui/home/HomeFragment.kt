@@ -13,6 +13,8 @@ import com.example.happysejong.adapter.ArticleAdapter
 import com.example.happysejong.databinding.FragmentHomeBinding
 import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.utils.DBKeys
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -23,7 +25,11 @@ import com.google.firebase.ktx.Firebase
 class HomeFragment : Fragment() {
 
     private val binding by lazy{ FragmentHomeBinding.inflate(layoutInflater)}
+    private lateinit var auth: FirebaseAuth
 
+    private val userDB : DatabaseReference by lazy{
+        Firebase.database.reference.child(DBKeys.DB_USERS)
+    }
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DBKeys.DB_ARTICLES)
     }
@@ -51,10 +57,12 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
 
+        auth = FirebaseAuth.getInstance()
         articleList.clear()
         articleAdapter = ArticleAdapter(onItemClicked = { model ->
             val directions : NavDirections = HomeFragmentDirections.
-            actionHomeFragment5ToChatsFragment2()
+            actionHomeFragment5ToChatsFragment2(model.date)
+            createChatsDB(model)
             findNavController().navigate(directions)
         })
         binding.MenuListView.layoutManager = LinearLayoutManager(context)
@@ -68,5 +76,24 @@ class HomeFragment : Fragment() {
         }
 
         return binding.root
+    }
+    private fun createChatsDB(articleModel: ArticleModel){
+        if (auth.currentUser?.uid != articleModel.sellerId) {
+
+            userDB.child(auth.currentUser!!.uid)
+                .child("chat")
+                .push()
+                .setValue(articleModel)
+
+            userDB.child(articleModel.sellerId)
+                .child("chat")
+                .push()
+                .setValue(articleModel)
+
+            Snackbar.make(view!!, "채팅방이 생성되었습니다. 채팅탭에서 확인해주세요.", Snackbar.LENGTH_LONG).show()
+
+        } else {
+            Snackbar.make(view!!, "내가 올린 게시물입니다", Snackbar.LENGTH_LONG).show()
+        }
     }
 }
