@@ -19,6 +19,7 @@ class AddArticleFragment : Fragment() {
 
     private val binding by lazy{ FragmentAddArticleBinding.inflate(layoutInflater)}
 
+
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DB_ARTICLES)
     }
@@ -41,7 +42,7 @@ class AddArticleFragment : Fragment() {
             val content = binding.articleTextTextView.text.toString()
 
             if (title.isNotEmpty() && content.isNotEmpty()){
-                val model = ArticleModel(title, content, System.currentTimeMillis())
+                val model = ArticleModel(auth.uid.toString(), title, content, System.currentTimeMillis())
                 articleDB.push().setValue(model)
                 val direction : NavDirections = AddArticleFragmentDirections.actionAddArticleFragmentToHomeFragment5()
                 findNavController().navigate(direction)
