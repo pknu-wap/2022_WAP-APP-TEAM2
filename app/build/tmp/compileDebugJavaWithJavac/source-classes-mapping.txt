@@ -1,5 +1,9 @@
+com/example/happysejong/BuildConfig.java
+ com.example.happysejong.BuildConfig
 com/example/happysejong/ui/users/SignUpFragmentDirections.java
  com.example.happysejong.ui.users.SignUpFragmentDirections
+com/example/happysejong/databinding/ItemChatsSenderBinding.java
+ com.example.happysejong.databinding.ItemChatsSenderBinding
 com/example/happysejong/ui/chats/ChatsFragmentDirections.java
  com.example.happysejong.ui.chats.ChatsFragmentDirections
 com/example/happysejong/ui/category/CategoryFragmentDirections.java
@@ -8,10 +12,10 @@ com/example/happysejong/databinding/FragmentHomeBinding.java
  com.example.happysejong.databinding.FragmentHomeBinding
 com/example/happysejong/databinding/ActivityLoginBinding.java
  com.example.happysejong.databinding.ActivityLoginBinding
+com/example/happysejong/databinding/ItemChatsReceiverBinding.java
+ com.example.happysejong.databinding.ItemChatsReceiverBinding
 com/example/happysejong/databinding/FragmentMyPageBinding.java
  com.example.happysejong.databinding.FragmentMyPageBinding
-com/example/happysejong/BuildConfig.java
- com.example.happysejong.BuildConfig
 com/example/happysejong/ui/home/AddArticleFragmentDirections.java
  com.example.happysejong.ui.home.AddArticleFragmentDirections
 com/example/happysejong/ui/mypage/MyPageFragmentDirections.java
@@ -32,5 +36,11 @@ com/example/happysejong/ui/users/LoginFragmentDirections.java
  com.example.happysejong.ui.users.LoginFragmentDirections
 com/example/happysejong/databinding/FragmentLoginBinding.java
  com.example.happysejong.databinding.FragmentLoginBinding
+com/example/happysejong/ui/chats/ChatsFragmentArgs.java
+ com.example.happysejong.ui.chats.ChatsFragmentArgs
+ com.example.happysejong.ui.chats.ChatsFragmentArgs$1
+ com.example.happysejong.ui.chats.ChatsFragmentArgs$Builder
 com/example/happysejong/ui/home/HomeFragmentDirections.java
  com.example.happysejong.ui.home.HomeFragmentDirections
+ com.example.happysejong.ui.home.HomeFragmentDirections$1
+ com.example.happysejong.ui.home.HomeFragmentDirections$ActionHomeFragment5ToChatsFragment2
