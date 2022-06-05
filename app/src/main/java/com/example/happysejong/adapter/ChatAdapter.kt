@@ -34,7 +34,7 @@ class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
     }
 
     override fun getItemViewType(position: Int): Int {
-        return if(currentList[position].users.nickName == auth.currentUser?.uid){
+        return if(currentList[position].users.uid == auth.currentUser?.uid){
             VIEW_TYPE_MESSAGE_SENT;
         } else{
             VIEW_TYPE_MESSAGE_RECEIVED;

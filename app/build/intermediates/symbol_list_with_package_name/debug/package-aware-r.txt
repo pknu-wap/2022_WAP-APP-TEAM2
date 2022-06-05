@@ -2555,6 +2555,7 @@ drawable ic_baseline_add_24
 drawable ic_baseline_chat_24
 drawable ic_baseline_check_24
 drawable ic_baseline_home_24
+drawable ic_baseline_insert_photo_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_reorder_24
 drawable ic_baseline_search_24
@@ -2615,6 +2616,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable toss
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2846,6 +2848,7 @@ id floatingActionButton
 id forever
 id fragment_container_view_tag
 id frost
+id galleryButton
 id ghost_view
 id ghost_view_holder
 id goAddArticleButton
@@ -3150,6 +3153,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id tossButton
 id touch_outside
 id transitionToEnd
 id transitionToStart
