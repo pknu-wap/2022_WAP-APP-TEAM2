@@ -48,6 +48,9 @@
         <action
             android:id="@+id/action_chatsFragment2_to_homeFragment5"
             app:destination="@id/homeFragment" />
+        <argument
+            android:name="chatKey"
+            app:argType="long" />
     </fragment>
     <fragment
         android:id="@+id/addArticleFragment"
