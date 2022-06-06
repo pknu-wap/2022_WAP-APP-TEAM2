@@ -2757,6 +2757,7 @@ int id center_vertical 0x7f080076
 int id chain 0x7f080077
 int id chain2 0x7f080078
 int id chains 0x7f080079
+int id chatRecyclerView 0x7f080246
 int id chatsFragment 0x7f080214
 int id checkbox 0x7f08007a
 int id checked 0x7f08007b

@@ -2758,6 +2758,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chatRecyclerView
 id chatsFragment
 id checkbox
 id checked
