@@ -7,21 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.happysejong.R
 import com.example.happysejong.adapter.ChatAdapter
 import com.example.happysejong.databinding.FragmentChatsBinding
-import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.model.ChatModel
 import com.example.happysejong.model.UserModel
 import com.example.happysejong.utils.DBKeys.Companion.DB_CHATS
 import com.example.happysejong.utils.DBKeys.Companion.DB_USERS
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import java.util.Collections.copy
-
 
 class ChatsFragment : Fragment() {
 
@@ -48,11 +42,14 @@ class ChatsFragment : Fragment() {
 
         val args: ChatsFragmentArgs by navArgs()
         val chatKey = args.chatKey
-        chatDB = Firebase.database.reference.child(DB_CHATS).child("$chatKey")
+        //bar에서 chat키를 눌렀을 경우 구현해야함 디폴트 값: auth.currentUser() 채팅방이 없는 경우도 구현
+        // 방 파기시 본인 uid로 생성된 방을 삭제
+        chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
         chatDB.addValueEventListener(currentUserDBListener)
 
         userDB = Firebase.database.reference.child(DB_USERS)
 
+        //getChats()
         initAddChatButton()
 
         return binding.root

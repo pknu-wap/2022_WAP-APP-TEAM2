@@ -58,16 +58,8 @@ class HomeFragment : Fragment() {
     ): View? {
 
         auth = FirebaseAuth.getInstance()
-        articleList.clear()
-        articleAdapter = ArticleAdapter(onItemClicked = { model ->
-            val directions : NavDirections = HomeFragmentDirections.
-            actionHomeFragment5ToChatsFragment2(model.date)
-            createChatsDB(model)
-            findNavController().navigate(directions)
-        })
-        binding.MenuListView.layoutManager = LinearLayoutManager(context)
-        binding.MenuListView.adapter = articleAdapter
-        articleDB.addChildEventListener(listener)
+
+        connectAdapter2ArticleRecyclerView()
     
         binding.goAddArticleButton.setOnClickListener{
             val directions : NavDirections = HomeFragmentDirections.
@@ -77,6 +69,19 @@ class HomeFragment : Fragment() {
 
         return binding.root
     }
+    private fun connectAdapter2ArticleRecyclerView(){
+        articleList.clear()
+        articleAdapter = ArticleAdapter(onItemClicked = { model ->
+            val directions : NavDirections = HomeFragmentDirections.
+            actionHomeFragment5ToChatsFragment2(model.sellerId)
+            //createChatsDB(model)
+            findNavController().navigate(directions)
+        })
+        binding.MenuListView.layoutManager = LinearLayoutManager(context)
+        binding.MenuListView.adapter = articleAdapter
+        articleDB.addChildEventListener(listener)
+    }
+    /*
     private fun createChatsDB(articleModel: ArticleModel){
         if (auth.currentUser?.uid != articleModel.sellerId) {
 
@@ -96,4 +101,5 @@ class HomeFragment : Fragment() {
             Snackbar.make(view!!, "내가 올린 게시물입니다", Snackbar.LENGTH_LONG).show()
         }
     }
+     */
 }
