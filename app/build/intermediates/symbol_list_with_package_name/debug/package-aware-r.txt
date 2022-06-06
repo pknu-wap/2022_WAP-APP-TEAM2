@@ -2702,6 +2702,7 @@ id activity_chooser_view_content
 id add
 id addArticleButton
 id addArticleFragment
+id addChatButton
 id addChatsCardView
 id addChatsEditText
 id adjust_height
@@ -2845,7 +2846,6 @@ id fitToContents
 id fixed
 id flip
 id floating
-id floatingActionButton
 id forever
 id fragment_container_view_tag
 id frost
