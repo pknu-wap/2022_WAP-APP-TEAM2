@@ -1,5 +1,6 @@
 package com.example.happysejong.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -51,11 +52,11 @@ class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         if(holder.itemViewType == VIEW_TYPE_MESSAGE_SENT){
-            val receiveHolder = holder as ReceivedMessageHolder
-            receiveHolder.bind(currentList[position])
+            val sentMessageHolder = holder as SentMessageHolder
+            sentMessageHolder.bind(currentList[position])
         }else if(holder.itemViewType == VIEW_TYPE_MESSAGE_RECEIVED){
-            val sentHolder = holder as SentMessageHolder
-            sentHolder.bind(currentList[position])
+            val receivedHolder = holder as ReceivedMessageHolder
+            receivedHolder.bind(currentList[position])
         }
     }
 

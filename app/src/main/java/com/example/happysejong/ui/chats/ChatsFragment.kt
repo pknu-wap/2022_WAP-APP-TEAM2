@@ -14,6 +14,7 @@ import com.example.happysejong.model.ChatModel
 import com.example.happysejong.model.UserModel
 import com.example.happysejong.utils.DBKeys.Companion.DB_CHATS
 import com.example.happysejong.utils.DBKeys.Companion.DB_USERS
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
@@ -23,10 +24,11 @@ class ChatsFragment : Fragment() {
     private val binding by lazy{ FragmentChatsBinding.inflate(layoutInflater)}
 
     private lateinit var chatDB: DatabaseReference
+    private val auth = FirebaseAuth.getInstance()
 
     private lateinit var currentUserModel: UserModel
     private val userDB: DatabaseReference by lazy{
-        Firebase.database.reference.child(DB_USERS)
+        Firebase.database.reference.child(DB_USERS).child(auth.currentUser!!.uid)
     }
 
     private val chatList = mutableListOf<ChatModel>()
@@ -34,9 +36,7 @@ class ChatsFragment : Fragment() {
 
     private val currentUserDBListener = object: ValueEventListener{
         override fun onDataChange(snapshot: DataSnapshot) {
-            snapshot.children.forEach{
-                currentUserModel = it.getValue(UserModel:: class.java)!!
-            }
+            currentUserModel = snapshot.getValue(UserModel:: class.java)!!
         }
         override fun onCancelled(error: DatabaseError) {}
     }
