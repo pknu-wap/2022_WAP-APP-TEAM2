@@ -1,23 +1,18 @@
 package com.example.happysejong.ui.home
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast.LENGTH_SHORT
-import android.widget.Toast.makeText
+import android.widget.Toast
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.happysejong.R
 import com.example.happysejong.adapter.ArticleAdapter
 import com.example.happysejong.databinding.FragmentHomeBinding
 import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.utils.DBKeys
-import com.google.android.material.snackbar.BaseTransientBottomBar.LENGTH_INDEFINITE
-import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
@@ -84,14 +79,13 @@ class HomeFragment : Fragment() {
         articleDB.addChildEventListener(listener)
     }
     private fun duplicatedSellerUid(){
-
         val userId = auth.currentUser!!.uid
         CoroutineScope(Dispatchers.IO).launch {
             articleDB.child(userId).get().addOnSuccessListener {
                 if (it.value.toString() == "null") {
                     go2AddArticleScreen()
                 }else{
-                    Snackbar.make(view!!, "이미 생성된 게시물이 있습니다.", LENGTH_INDEFINITE).show()
+                    Toast.makeText(activity, "이미 생성된 게시물이 있습니다.", Toast.LENGTH_SHORT).show()
                 }
             }
         }
