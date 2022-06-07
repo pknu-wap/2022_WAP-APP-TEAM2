@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721486229214",
+    "firebase_url": "https://wapapp2-default-rtdb.firebaseio.com",
+    "project_id": "wapapp2",
+    "storage_bucket": "wapapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721486229214:android:b0835775a6c4f1be9d1c4f",
+        "android_client_info": {
+          "package_name": "com.example.happysejong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721486229214-d8v0cie8f61p16omkgbdqgoopd7gbqrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR24PsZUYk-DC1ChoisZCnSVgpHM2zBmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721486229214-d8v0cie8f61p16omkgbdqgoopd7gbqrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

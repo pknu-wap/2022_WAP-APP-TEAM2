@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.happysejong">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,23 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappySejong">
         <activity
-            android:name=".ui.ChatActivity"
+            android:name=".ui.SettingActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.MyPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.MapActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
+            android:name=".ui.users.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
