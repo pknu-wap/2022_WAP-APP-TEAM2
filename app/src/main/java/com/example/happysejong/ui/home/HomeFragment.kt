@@ -1,10 +1,13 @@
 package com.example.happysejong.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast.LENGTH_SHORT
+import android.widget.Toast.makeText
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -13,6 +16,7 @@ import com.example.happysejong.adapter.ArticleAdapter
 import com.example.happysejong.databinding.FragmentHomeBinding
 import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.utils.DBKeys
+import com.google.android.material.snackbar.BaseTransientBottomBar.LENGTH_INDEFINITE
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
@@ -21,15 +25,15 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class HomeFragment : Fragment() {
 
     private val binding by lazy{ FragmentHomeBinding.inflate(layoutInflater)}
     private lateinit var auth: FirebaseAuth
 
-    private val userDB : DatabaseReference by lazy{
-        Firebase.database.reference.child(DBKeys.DB_USERS)
-    }
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DBKeys.DB_ARTICLES)
     }
@@ -62,9 +66,7 @@ class HomeFragment : Fragment() {
         connectAdapter2ArticleRecyclerView()
     
         binding.goAddArticleButton.setOnClickListener{
-            val directions : NavDirections = HomeFragmentDirections.
-            actionHomeFragment5ToAddArticleFragment()
-            findNavController().navigate(directions)
+            duplicatedSellerUid()
         }
 
         return binding.root
@@ -81,25 +83,22 @@ class HomeFragment : Fragment() {
         binding.MenuListView.adapter = articleAdapter
         articleDB.addChildEventListener(listener)
     }
-    /*
-    private fun createChatsDB(articleModel: ArticleModel){
-        if (auth.currentUser?.uid != articleModel.sellerId) {
+    private fun duplicatedSellerUid(){
 
-            userDB.child(auth.currentUser!!.uid)
-                .child("chat")
-                .push()
-                .setValue(articleModel)
-
-            userDB.child(articleModel.sellerId)
-                .child("chat")
-                .push()
-                .setValue(articleModel)
-
-            Snackbar.make(view!!, "채팅방이 생성되었습니다. 채팅탭에서 확인해주세요.", Snackbar.LENGTH_LONG).show()
-
-        } else {
-            Snackbar.make(view!!, "내가 올린 게시물입니다", Snackbar.LENGTH_LONG).show()
+        val userId = auth.currentUser!!.uid
+        CoroutineScope(Dispatchers.IO).launch {
+            articleDB.child(userId).get().addOnSuccessListener {
+                if (it.value.toString() == "null") {
+                    go2AddArticleScreen()
+                }else{
+                    Snackbar.make(view!!, "이미 생성된 게시물이 있습니다.", LENGTH_INDEFINITE).show()
+                }
+            }
         }
     }
-     */
+    private fun go2AddArticleScreen(){
+        val directions: NavDirections =
+            HomeFragmentDirections.actionHomeFragment5ToAddArticleFragment()
+        findNavController().navigate(directions)
+    }
 }

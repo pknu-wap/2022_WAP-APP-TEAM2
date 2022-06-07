@@ -9,6 +9,7 @@ import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.example.happysejong.model.ArticleModel
 import com.example.happysejong.databinding.FragmentAddArticleBinding
+import com.example.happysejong.utils.DBKeys
 import com.example.happysejong.utils.DBKeys.Companion.DB_ARTICLES
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
@@ -20,8 +21,8 @@ class AddArticleFragment : Fragment() {
     private val binding by lazy{ FragmentAddArticleBinding.inflate(layoutInflater)}
 
 
-    private val articleDB : DatabaseReference by lazy{
-        Firebase.database.reference.child(DB_ARTICLES)
+    private val articleDB : DatabaseReference by lazy {
+        Firebase.database.reference.child(DB_ARTICLES).child(auth.currentUser!!.uid)
     }
 
     private lateinit var auth: FirebaseAuth
@@ -43,7 +44,7 @@ class AddArticleFragment : Fragment() {
 
             if (title.isNotEmpty() && content.isNotEmpty()){
                 val model = ArticleModel(auth.uid.toString(), title, content, System.currentTimeMillis())
-                articleDB.push().setValue(model)
+                articleDB.setValue(model)
                 val direction : NavDirections = AddArticleFragmentDirections.actionAddArticleFragmentToHomeFragment5()
                 findNavController().navigate(direction)
             }
