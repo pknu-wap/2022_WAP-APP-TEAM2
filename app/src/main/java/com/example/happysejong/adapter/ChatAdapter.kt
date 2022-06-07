@@ -23,19 +23,22 @@ import java.util.*
 class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
 
     private var auth: FirebaseAuth = Firebase.auth
-    private val format = SimpleDateFormat("MM월 dd일 HH시 mm분")
+    private val timeFormat = SimpleDateFormat("HH시 mm분")
+    //private val dateFormat = SimpleDateFormat("yyyy년 MM월 dd일")
 
     inner class ReceivedMessageHolder(private val binding: ItemChatsReceiverBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
             val date = Date(chatModel.createdAt)
-            binding.textGchatTimestampOther.text = format.format(date).toString()
+            binding.textGchatTimestampOther.text = timeFormat.format(date).toString()
+            binding.textGchatUserOther.text = chatModel.users.nickName
             binding.textGchatMessageOther.text = chatModel.message
         }
     }
 
     inner class SentMessageHolder(private val binding: ItemChatsSenderBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
-            binding.textGchatDateMe.text = format.format(chatModel.createdAt).toString()
+            val date = Date(chatModel.createdAt)
+            binding.textGchatTimestampMe.text = timeFormat.format(date).toString()
             binding.textGchatMessageMe.text = chatModel.message
         }
     }
