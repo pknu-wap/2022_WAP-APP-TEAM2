@@ -17,19 +17,25 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.text.SimpleDateFormat
+import java.util.*
 
 class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
 
     private var auth: FirebaseAuth = Firebase.auth
+    private val format = SimpleDateFormat("MM월 dd일 HH시 mm분")
 
     inner class ReceivedMessageHolder(private val binding: ItemChatsReceiverBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
+            val date = Date(chatModel.createdAt)
+            binding.textGchatTimestampOther.text = format.format(date).toString()
             binding.textGchatMessageOther.text = chatModel.message
         }
     }
 
     inner class SentMessageHolder(private val binding: ItemChatsSenderBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
+            binding.textGchatDateMe.text = format.format(chatModel.createdAt).toString()
             binding.textGchatMessageMe.text = chatModel.message
         }
     }
