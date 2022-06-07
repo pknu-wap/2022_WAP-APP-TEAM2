@@ -63,6 +63,7 @@ class ChatsFragment : Fragment() {
             val message = binding.addChatsEditText.text.toString()
             val chatItem = ChatModel(currentUserModel, message, System.currentTimeMillis())
             chatDB.push().setValue(chatItem)
+            binding.addChatsEditText.setText("")
         }
     }
     private fun getChats(){
