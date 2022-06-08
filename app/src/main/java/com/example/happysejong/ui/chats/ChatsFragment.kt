@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavDirections
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.happysejong.adapter.ChatAdapter
@@ -31,9 +33,6 @@ class ChatsFragment : Fragment() {
         Firebase.database.reference.child(DB_USERS).child(auth.currentUser!!.uid)
     }
 
-    private val chatList = mutableListOf<ChatModel>()
-    private val adapter = ChatAdapter()
-
     private val currentUserDBListener = object: ValueEventListener{
         override fun onDataChange(snapshot: DataSnapshot) {
             currentUserModel = snapshot.getValue(UserModel:: class.java)!!
@@ -49,8 +48,6 @@ class ChatsFragment : Fragment() {
         val args: ChatsFragmentArgs by navArgs()
         val chatKey = args.chatKey
         chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
-        //bar에서 chat키를 눌렀을 경우 구현해야함 디폴트 값: auth.currentUser() 채팅방이 없는 경우도 구현
-        // 방 파기시 본인 uid로 생성된 방을 삭제
         userDB.addValueEventListener(currentUserDBListener)
 
         getChats()
@@ -67,6 +64,15 @@ class ChatsFragment : Fragment() {
         }
     }
     private fun getChats(){
+        val chatList = mutableListOf<ChatModel>()
+
+        val adapter = ChatAdapter(onItemClicked = { userModel ->
+            val direction : NavDirections  = ChatsFragmentDirections
+                .actionChatsFragmentToOtherUserDialogFragment(userModel)
+            findNavController().navigate(direction)
+
+        })
+
         chatDB.addChildEventListener(object: ChildEventListener{
             override fun onChildAdded(snapshot: DataSnapshot, previousChildName: String?) {
                 val chatItem = snapshot.getValue(ChatModel::class.java)
@@ -83,6 +89,7 @@ class ChatsFragment : Fragment() {
             override fun onChildMoved(snapshot: DataSnapshot, previousChildName: String?) {}
             override fun onCancelled(error: DatabaseError) {}
         })
+
         binding.chatRecyclerView.adapter = adapter
         binding.chatRecyclerView.layoutManager = LinearLayoutManager(context)
     }

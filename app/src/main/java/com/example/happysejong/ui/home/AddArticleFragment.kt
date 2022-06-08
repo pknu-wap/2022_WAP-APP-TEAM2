@@ -20,7 +20,6 @@ class AddArticleFragment : Fragment() {
 
     private val binding by lazy{ FragmentAddArticleBinding.inflate(layoutInflater)}
 
-
     private val articleDB : DatabaseReference by lazy {
         Firebase.database.reference.child(DB_ARTICLES).child(auth.currentUser!!.uid)
     }
@@ -31,7 +30,6 @@ class AddArticleFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-
         auth = FirebaseAuth.getInstance()
         initAddArticleButton()
         return binding.root
