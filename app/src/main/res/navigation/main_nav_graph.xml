@@ -51,6 +51,9 @@
         <argument
             android:name="chatKey"
             app:argType="string" />
+        <action
+            android:id="@+id/action_chatsFragment_to_otherUserDialogFragment"
+            app:destination="@id/otherUserDialogFragment" />
     </fragment>
     <fragment
         android:id="@+id/addArticleFragment"
@@ -61,4 +64,13 @@
             android:id="@+id/action_addArticleFragment_to_homeFragment5"
             app:destination="@id/homeFragment" />
     </fragment>
+    <dialog
+        android:id="@+id/otherUserDialogFragment"
+        android:name="com.example.happysejong.dialog.OtherUserDialogFragment"
+        android:label="dialog_other_user_fragment"
+        tools:layout="@layout/dialog_other_user_fragment" >
+        <argument
+            android:name="userModel"
+            app:argType="com.example.happysejong.model.UserModel" />
+    </dialog>
 </navigation>
