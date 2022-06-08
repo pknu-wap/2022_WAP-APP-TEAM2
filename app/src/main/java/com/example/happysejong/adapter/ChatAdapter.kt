@@ -1,6 +1,5 @@
 package com.example.happysejong.adapter
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -9,18 +8,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.happysejong.databinding.ItemChatsReceiverBinding
 import com.example.happysejong.databinding.ItemChatsSenderBinding
 import com.example.happysejong.model.ChatModel
+import com.example.happysejong.model.UserModel
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_RECEIVED
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_SENT
-import com.example.happysejong.utils.DBKeys
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
+class ChatAdapter(val onItemClicked: (UserModel) -> Unit) : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
 
     private var auth: FirebaseAuth = Firebase.auth
     private val timeFormat = SimpleDateFormat("HH시 mm분")
@@ -32,6 +29,10 @@ class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
             binding.textGchatTimestampOther.text = timeFormat.format(date).toString()
             binding.textGchatUserOther.text = chatModel.users.nickName
             binding.textGchatMessageOther.text = chatModel.message
+
+            binding.textGchatUserOther.setOnClickListener{
+                onItemClicked(chatModel.users)
+            }
         }
     }
 
