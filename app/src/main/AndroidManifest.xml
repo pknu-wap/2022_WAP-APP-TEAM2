@@ -3,6 +3,7 @@
     package="com.example.happysejong">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -11,9 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HappySejong">
-        <activity
-            android:name=".ui.SettingActivity"
-            android:exported="true" />
         <activity
             android:name=".ui.users.LoginActivity"
             android:exported="true"
@@ -24,9 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.ChatActivity"
-            android:exported="true" />
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"></activity>
