@@ -48,9 +48,6 @@
         <action
             android:id="@+id/action_chatsFragment2_to_homeFragment5"
             app:destination="@id/homeFragment" />
-        <argument
-            android:name="chatKey"
-            app:argType="string" />
         <action
             android:id="@+id/action_chatsFragment_to_otherUserDialogFragment"
             app:destination="@id/otherUserDialogFragment" />

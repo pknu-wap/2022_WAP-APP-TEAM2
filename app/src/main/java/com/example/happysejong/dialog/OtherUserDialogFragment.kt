@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import androidx.navigation.fragment.navArgs
 import com.example.happysejong.databinding.DialogOtherUserFragmentBinding
 import com.example.happysejong.model.UserModel
-import com.example.happysejong.ui.chats.ChatsFragmentArgs
 import com.example.happysejong.utils.DBKeys
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
@@ -56,6 +56,7 @@ class OtherUserDialogFragment : DialogFragment() {
                         val reports = it.value.toString().toLong() + 1
                         userDB.child(userItem.uid).child("reports").setValue(reports)
                         dismiss()
+                        Toast.makeText(requireContext(), "신고 하였습니다.", Toast.LENGTH_SHORT).show()
                 }
             }
         }

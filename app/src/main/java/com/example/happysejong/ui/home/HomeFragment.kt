@@ -6,12 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.happysejong.adapter.ArticleAdapter
 import com.example.happysejong.databinding.FragmentHomeBinding
 import com.example.happysejong.model.ArticleModel
+import com.example.happysejong.ui.chats.ChatsKeyViewModel
 import com.example.happysejong.utils.DBKeys
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
@@ -32,6 +35,8 @@ class HomeFragment : Fragment() {
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DBKeys.DB_ARTICLES)
     }
+
+    private lateinit var chatsKeyViewModel: ChatsKeyViewModel
 
     private lateinit var articleAdapter: ArticleAdapter
     private val articleList = mutableListOf<ArticleModel>()
@@ -56,6 +61,8 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
 
+        chatsKeyViewModel = ViewModelProvider(requireActivity()).get(ChatsKeyViewModel::class.java)
+
         auth = FirebaseAuth.getInstance()
 
         connectAdapter2ArticleRecyclerView()
@@ -70,9 +77,9 @@ class HomeFragment : Fragment() {
         articleList.clear()
         articleAdapter = ArticleAdapter(onItemClicked = { model ->
             val directions : NavDirections = HomeFragmentDirections.
-            actionHomeFragment5ToChatsFragment2(model.sellerId)
-            //createChatsDB(model)
+            actionHomeFragment5ToChatsFragment2()
             findNavController().navigate(directions)
+            chatsKeyViewModel.setKey(model.sellerId)
         })
         binding.MenuListView.layoutManager = LinearLayoutManager(context)
         binding.MenuListView.adapter = articleAdapter

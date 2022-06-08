@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
@@ -20,6 +22,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.util.*
 
 class ChatsFragment : Fragment() {
 
@@ -27,6 +30,9 @@ class ChatsFragment : Fragment() {
 
     private lateinit var chatDB: DatabaseReference
     private val auth = FirebaseAuth.getInstance()
+
+    lateinit var chatsKeyViewModel: ChatsKeyViewModel
+    private var chatKey = auth.currentUser!!.uid
 
     private lateinit var currentUserModel: UserModel
     private val userDB: DatabaseReference by lazy{
@@ -45,12 +51,16 @@ class ChatsFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
 
-        val args: ChatsFragmentArgs by navArgs()
-        val chatKey = args.chatKey
-        chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
+        chatsKeyViewModel = ViewModelProvider(requireActivity()).get(ChatsKeyViewModel::class.java)
+
+        chatsKeyViewModel.chatKey.observe(this){
+            chatKey = it
+            chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
+            getChats()
+            Log.d("Tag", chatKey)
+        }
         userDB.addValueEventListener(currentUserDBListener)
 
-        getChats()
         initAddChatButton()
 
         return binding.root
