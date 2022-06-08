@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7caaa4ed63796899d728396b3317a3cb\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\9d6c21def79d2634f2614e471bb9dc11\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\806cda066d9604b3e163ec665957e19f\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -95,20 +95,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e4d210fbc3f70f00c0f367ccc579454e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\ed4a0acb5dd1288bec2481d59df947c4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\0e5201bf2acd1bf76820a4aaa347596b\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:11-69
@@ -130,8 +130,12 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\952df45123da1a1e7e4bd7a82659c42e\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:8:5-28:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:26:5-71:19
@@ -197,53 +201,41 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapp
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:13:9-49
-activity#com.example.happysejong.ui.SettingActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:14:9-16:39
-	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:14:9-49
 activity#com.example.happysejong.ui.users.LoginActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:17:9-26:20
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:13-57
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:18:13-57
 	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:18:13-51
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:16:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:24:27-74
-activity#com.example.happysejong.ui.ChatActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:27:9-29:39
-	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:29:13-36
-	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:28:13-44
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.example.happysejong.ui.MainActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:30:9-32:48
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:25:9-27:48
 	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:26:13-44
 uses-sdk
 INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
