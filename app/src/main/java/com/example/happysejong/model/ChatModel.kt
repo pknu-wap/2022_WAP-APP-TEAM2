@@ -7,5 +7,5 @@ data class ChatModel (
     val isToss: Boolean,
     val createdAt: Long
         ){
-    constructor(): this(UserModel("","","",0),"", 0)
+    constructor(): this(UserModel("","","",0),"", false, false,0)
 }
