@@ -2680,6 +2680,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_categoryFragment2_to_homeFragment5
 id action_chatsFragment2_to_homeFragment5
+id action_chatsFragment_to_otherUserDialogFragment
 id action_container
 id action_context_bar
 id action_divider
@@ -2718,6 +2719,8 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id article_category_textView
+id article_location_textView
 id article_text_textView
 id article_title_textView
 id asConfigured
@@ -2805,6 +2808,8 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dialog_other_user_dormitory
+id dialog_other_user_name
 id dimensions
 id direct
 id disableHome
@@ -2997,6 +3002,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id otherUserDialogFragment
 id outline
 id outward
 id overshoot
@@ -3025,6 +3031,7 @@ id registerEmailEditText
 id registerNickNameEditText
 id registerPasswordEditText
 id register_dormitory_textView
+id report_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3294,6 +3301,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_other_user_fragment
 layout fragment_add_article
 layout fragment_category
 layout fragment_chats
@@ -3369,6 +3377,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout test
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox

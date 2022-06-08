@@ -2679,6 +2679,7 @@ int id action_bar_subtitle 0x7f080039
 int id action_bar_title 0x7f08003a
 int id action_categoryFragment2_to_homeFragment5 0x7f08021d
 int id action_chatsFragment2_to_homeFragment5 0x7f08021e
+int id action_chatsFragment_to_otherUserDialogFragment 0x7f080248
 int id action_container 0x7f08003b
 int id action_context_bar 0x7f08003c
 int id action_divider 0x7f08003d
@@ -2717,6 +2718,8 @@ int id animateToStart 0x7f080053
 int id antiClockwise 0x7f080054
 int id anticipate 0x7f080055
 int id arc 0x7f080056
+int id article_category_textView 0x7f08024d
+int id article_location_textView 0x7f08024e
 int id article_text_textView 0x7f08022a
 int id article_title_textView 0x7f08022b
 int id asConfigured 0x7f080057
@@ -2804,6 +2807,8 @@ int id design_menu_item_action_area_stub 0x7f0800a2
 int id design_menu_item_text 0x7f0800a3
 int id design_navigation_view 0x7f0800a4
 int id dialog_button 0x7f0800a5
+int id dialog_other_user_dormitory 0x7f080249
+int id dialog_other_user_name 0x7f08024a
 int id dimensions 0x7f0800a6
 int id direct 0x7f0800a7
 int id disableHome 0x7f0800a8
@@ -2996,6 +3001,7 @@ int id notification_main_column_container 0x7f080159
 int id off 0x7f08015a
 int id on 0x7f08015b
 int id onInterceptTouchReturnSwipe 0x7f08015c
+int id otherUserDialogFragment 0x7f08024b
 int id outline 0x7f08015d
 int id outward 0x7f08015e
 int id overshoot 0x7f08015f
@@ -3024,6 +3030,7 @@ int id registerEmailEditText 0x7f080175
 int id registerNickNameEditText 0x7f080231
 int id registerPasswordEditText 0x7f080176
 int id register_dormitory_textView 0x7f080219
+int id report_button 0x7f08024c
 int id reverseSawtooth 0x7f080177
 int id right 0x7f080178
 int id rightToLeft 0x7f080179
@@ -3293,6 +3300,7 @@ int layout design_navigation_menu 0x7f0b002d
 int layout design_navigation_menu_item 0x7f0b002e
 int layout design_text_input_end_icon 0x7f0b002f
 int layout design_text_input_start_icon 0x7f0b0030
+int layout dialog_other_user_fragment 0x7f0b008d
 int layout fragment_add_article 0x7f0b008a
 int layout fragment_category 0x7f0b0086
 int layout fragment_chats 0x7f0b0087
@@ -3368,6 +3376,7 @@ int layout select_dialog_item_material 0x7f0b0072
 int layout select_dialog_multichoice_material 0x7f0b0073
 int layout select_dialog_singlechoice_material 0x7f0b0074
 int layout support_simple_spinner_dropdown_item 0x7f0b0075
+int layout test 0x7f0b008e
 int layout test_action_chip 0x7f0b0076
 int layout test_chip_zero_corner_radius 0x7f0b0077
 int layout test_design_checkbox 0x7f0b0078
