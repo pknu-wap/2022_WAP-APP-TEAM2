@@ -1,4 +1,4 @@
-package com.example.happysejong
+package com.example.happysejong.utils
 
 import android.app.Application
 import android.content.Context
