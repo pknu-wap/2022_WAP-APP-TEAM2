@@ -1,14 +1,18 @@
 package com.example.happysejong.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.net.toUri
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.happysejong.databinding.ItemChatsReceiverBinding
 import com.example.happysejong.databinding.ItemChatsSenderBinding
 import com.example.happysejong.model.ChatModel
 import com.example.happysejong.model.UserModel
+import com.example.happysejong.utils.App
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_RECEIVED
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_SENT
 import com.google.firebase.auth.FirebaseAuth
@@ -28,8 +32,15 @@ class ChatAdapter(val onItemClicked: (UserModel) -> Unit) : ListAdapter<ChatMode
             val date = Date(chatModel.createdAt)
             binding.textGchatTimestampOther.text = timeFormat.format(date).toString()
             binding.textGchatUserOther.text = chatModel.users.nickName
-            binding.textGchatMessageOther.text = chatModel.message
-
+            if(chatModel.isImage){
+                binding.imageOther.visibility = View.VISIBLE
+                binding.textGchatMessageOther.visibility = View.GONE
+                Glide.with(App.applicationContext()).load(chatModel.message.toUri()).into(binding.imageOther)
+            }else {
+                binding.imageOther.visibility = View.GONE
+                binding.textGchatMessageOther.visibility = View.VISIBLE
+                binding.textGchatMessageOther.text = chatModel.message
+            }
             binding.textGchatUserOther.setOnClickListener{
                 onItemClicked(chatModel.users)
             }
@@ -40,7 +51,15 @@ class ChatAdapter(val onItemClicked: (UserModel) -> Unit) : ListAdapter<ChatMode
         fun bind(chatModel: ChatModel){
             val date = Date(chatModel.createdAt)
             binding.textGchatTimestampMe.text = timeFormat.format(date).toString()
-            binding.textGchatMessageMe.text = chatModel.message
+            if(chatModel.isImage){
+                binding.imageMe.visibility = View.VISIBLE
+                binding.textGchatMessageMe.visibility = View.GONE
+                Glide.with(App.applicationContext()).load(chatModel.message.toUri()).into(binding.imageMe)
+            }else {
+                binding.imageMe.visibility = View.GONE
+                binding.textGchatMessageMe.visibility = View.VISIBLE
+                binding.textGchatMessageMe.text = chatModel.message
+            }
         }
     }
 

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_other_user_fragment.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\dialog_other_user_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_other_user_fragment.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\dialog_other_user_fragment.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_test.xml.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_bottom_bar_color.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\bottom_bar_color.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_page.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\fragment_my_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_bottom_bar_color.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\bottom_bar_color.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\layout_item_home_menu.xml.flat",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\layout\\item_chats_receiver.xml"
     },
     {
-        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_reorder_24.xml.flat",
         "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_reorder_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_check_24.xml.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7caaa4ed63796899d728396b3317a3cb\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\9d6c21def79d2634f2614e471bb9dc11\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\806cda066d9604b3e163ec665957e19f\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -27,6 +27,7 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\jaino\gradle\wrapper\caches\
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\3de672b507f018fd0c245147e62c5a79\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\a6695a7ed41ec59fcfa8b9ea5f4325a5\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\59cc30cadce8dad7ce5db04775ca16d5\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\2f95db6551d506d40a4aaee04b9437b7\transformed\jetified-glide-4.13.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e86b0a45b2e2c9f14093dbf34a3f0763\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1c1d6383305b7094c23e47b1c4e29a3c\transformed\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.4] C:\Users\jaino\gradle\wrapper\caches\transforms-3\5969e332b91efe7d0c2203e53ac686a7\transformed\jetified-firebase-database-ktx-20.0.4\AndroidManifest.xml:2:1-21:12
@@ -80,11 +81,13 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\jaino\gradle\wra
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\a51f0df8b1a53991f4bcf60b295b3961\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\9978e90f51b0cef2e4d881e0cc5e4e08\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\0106defb9b5f66396bd5f9e70273a84b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\d64e93c75aeb4a2332dad0f350279a29\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\5e8550a89a05fca22107161f0f882a71\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\08ad6506f10ad76a9a1dbe491a1c9611\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\f94fc45abcb9f349f288cc34f6085029\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\8b3bfb13b79a85fbfa2330891fadd0b1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\889bc3d32db70ec0e81244e155b25dbc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\b13976e0c37c9470ab77892faf6e6a8b\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\8ea91951296028513597e94dbe8dce87\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -95,20 +98,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e4d210fbc3f70f00c0f367ccc579454e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\ed4a0acb5dd1288bec2481d59df947c4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\0e5201bf2acd1bf76820a4aaa347596b\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:2:11-69
@@ -135,7 +138,7 @@ ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:26:5-71:19
@@ -146,6 +149,8 @@ MERGED from [com.google.android.material:material:1.5.0] C:\Users\jaino\gradle\w
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\3de672b507f018fd0c245147e62c5a79\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\a6695a7ed41ec59fcfa8b9ea5f4325a5\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\a6695a7ed41ec59fcfa8b9ea5f4325a5\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\2f95db6551d506d40a4aaee04b9437b7\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\2f95db6551d506d40a4aaee04b9437b7\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1c1d6383305b7094c23e47b1c4e29a3c\transformed\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1c1d6383305b7094c23e47b1c4e29a3c\transformed\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.4] C:\Users\jaino\gradle\wrapper\caches\transforms-3\5969e332b91efe7d0c2203e53ac686a7\transformed\jetified-firebase-database-ktx-20.0.4\AndroidManifest.xml:11:5-19:19
@@ -192,50 +197,54 @@ MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\jaino\gradle\wrapper\caches\
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1fe04fecd2d140b72fb05992f542cb6c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\d64e93c75aeb4a2332dad0f350279a29\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\d64e93c75aeb4a2332dad0f350279a29\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\08ad6506f10ad76a9a1dbe491a1c9611\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\08ad6506f10ad76a9a1dbe491a1c9611\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\f94fc45abcb9f349f288cc34f6085029\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\f94fc45abcb9f349f288cc34f6085029\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:15:9-49
+	android:name
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:9:9-34
 activity#com.example.happysejong.ui.users.LoginActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:15:9-24:20
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:18:13-57
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:19:13-57
 	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:16:13-51
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:17:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.example.happysejong.ui.MainActivity
-ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:25:9-27:48
+ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:26:9-28:48
 	android:exported
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:26:13-44
+		ADDED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:27:13-44
 uses-sdk
 INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
@@ -286,6 +295,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\jaino\gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\a6695a7ed41ec59fcfa8b9ea5f4325a5\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\59cc30cadce8dad7ce5db04775ca16d5\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\59cc30cadce8dad7ce5db04775ca16d5\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\2f95db6551d506d40a4aaee04b9437b7\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\2f95db6551d506d40a4aaee04b9437b7\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e86b0a45b2e2c9f14093dbf34a3f0763\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e86b0a45b2e2c9f14093dbf34a3f0763\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1c1d6383305b7094c23e47b1c4e29a3c\transformed\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:5:5-44
@@ -392,16 +403,20 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jaino\gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\9978e90f51b0cef2e4d881e0cc5e4e08\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\0106defb9b5f66396bd5f9e70273a84b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\0106defb9b5f66396bd5f9e70273a84b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\d64e93c75aeb4a2332dad0f350279a29\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\d64e93c75aeb4a2332dad0f350279a29\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\5e8550a89a05fca22107161f0f882a71\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\5e8550a89a05fca22107161f0f882a71\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\08ad6506f10ad76a9a1dbe491a1c9611\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\08ad6506f10ad76a9a1dbe491a1c9611\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\f94fc45abcb9f349f288cc34f6085029\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\f94fc45abcb9f349f288cc34f6085029\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\8b3bfb13b79a85fbfa2330891fadd0b1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\8b3bfb13b79a85fbfa2330891fadd0b1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\35d3dc5e0bba302a4aab1603519baaf6\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\e55665e0495a8b60231365312756288a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\889bc3d32db70ec0e81244e155b25dbc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\889bc3d32db70ec0e81244e155b25dbc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\jaino\gradle\wrapper\caches\transforms-3\b13976e0c37c9470ab77892faf6e6a8b\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41

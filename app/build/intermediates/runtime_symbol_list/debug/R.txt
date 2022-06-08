@@ -2857,6 +2857,7 @@ int id frost 0x7f0800d0
 int id galleryButton 0x7f080244
 int id ghost_view 0x7f0800d1
 int id ghost_view_holder 0x7f0800d2
+int id glide_custom_view_target_tag 0x7f08024f
 int id goAddArticleButton 0x7f080230
 int id gone 0x7f0800d3
 int id graph 0x7f0800d4
@@ -2882,6 +2883,8 @@ int id image 0x7f0800ea
 int id imageView 0x7f0800eb
 int id imageView12 0x7f0800ec
 int id image_gchat_profile_other 0x7f08023a
+int id image_me 0x7f080250
+int id image_other 0x7f080251
 int id immediateStop 0x7f0800ed
 int id included 0x7f0800ee
 int id info 0x7f0800ef

@@ -2858,6 +2858,7 @@ id frost
 id galleryButton
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id goAddArticleButton
 id gone
 id graph
@@ -2883,6 +2884,8 @@ id image
 id imageView
 id imageView12
 id image_gchat_profile_other
+id image_me
+id image_other
 id immediateStop
 id included
 id info

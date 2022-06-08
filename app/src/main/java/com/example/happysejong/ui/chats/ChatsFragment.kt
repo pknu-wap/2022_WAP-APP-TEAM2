@@ -79,11 +79,12 @@ class ChatsFragment : Fragment() {
     private fun initAddChatButton(){
         binding.addChatButton.setOnClickListener{
             val message = binding.addChatsEditText.text.toString()
-            val chatItem = ChatModel(currentUserModel, message, System.currentTimeMillis())
+            val chatItem = ChatModel(currentUserModel, message, false, false, System.currentTimeMillis())
             chatDB.push().setValue(chatItem)
             binding.addChatsEditText.setText("")
         }
     }
+
 
     private fun getChats(){
         val chatList = mutableListOf<ChatModel>()
@@ -136,8 +137,15 @@ class ChatsFragment : Fragment() {
     private val selectImageFromGalleryResult =
         registerForActivityResult(ActivityResultContracts.GetContent()) {
             uri: Uri? -> uri?.let{
-
+                val imageUri = uri.toString()
+                sendImage(imageUri)
         }
+    }
+
+    private fun sendImage(uri: String){
+        val chatItem = ChatModel(currentUserModel, uri, true, false, System.currentTimeMillis())
+        chatDB.push().setValue(chatItem)
+        binding.addChatsEditText.setText("")
     }
 
     private val requestPermissionLauncher =
@@ -145,7 +153,7 @@ class ChatsFragment : Fragment() {
             if (isGranted) {
                 selectImageFromGallery()
             } else {
-                Toast.makeText(context, "Permissions not granted by the user.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "권한을 허용되지 않았습니다.", Toast.LENGTH_SHORT).show();
             }
         }
 

@@ -30,16 +30,17 @@ import kotlinx.coroutines.launch
 class HomeFragment : Fragment() {
 
     private val binding by lazy{ FragmentHomeBinding.inflate(layoutInflater)}
-    private lateinit var auth: FirebaseAuth
-
-    private val articleDB : DatabaseReference by lazy{
-        Firebase.database.reference.child(DBKeys.DB_ARTICLES)
-    }
 
     private lateinit var chatsKeyViewModel: ChatsKeyViewModel
 
     private lateinit var articleAdapter: ArticleAdapter
     private val articleList = mutableListOf<ArticleModel>()
+
+    private lateinit var auth: FirebaseAuth
+
+    private val articleDB : DatabaseReference by lazy{
+        Firebase.database.reference.child(DBKeys.DB_ARTICLES)
+    }
 
     private val listener = object: ChildEventListener {
         override fun onChildAdded(snapshot: DataSnapshot, previousChildName: String?) {
