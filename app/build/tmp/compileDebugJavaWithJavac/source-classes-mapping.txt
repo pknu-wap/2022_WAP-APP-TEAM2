@@ -1,7 +1,5 @@
 com/example/happysejong/BuildConfig.java
  com.example.happysejong.BuildConfig
-com/example/happysejong/databinding/FragmentLoginBinding.java
- com.example.happysejong.databinding.FragmentLoginBinding
 com/example/happysejong/dialog/OtherUserDialogFragmentArgs.java
  com.example.happysejong.dialog.OtherUserDialogFragmentArgs
  com.example.happysejong.dialog.OtherUserDialogFragmentArgs$1
@@ -46,5 +44,7 @@ com/example/happysejong/databinding/DialogOtherUserFragmentBinding.java
  com.example.happysejong.databinding.DialogOtherUserFragmentBinding
 com/example/happysejong/ui/users/LoginFragmentDirections.java
  com.example.happysejong.ui.users.LoginFragmentDirections
+com/example/happysejong/databinding/FragmentLoginBinding.java
+ com.example.happysejong.databinding.FragmentLoginBinding
 com/example/happysejong/ui/home/HomeFragmentDirections.java
  com.example.happysejong.ui.home.HomeFragmentDirections
