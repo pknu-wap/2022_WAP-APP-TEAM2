@@ -13,6 +13,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/background_navy"
+        app:cardElevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:fontFamily="@font/one_bold"
                 android:text="TextView"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -42,6 +44,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="TextView"
+                android:fontFamily="@font/one_700"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/item_titleView" />
@@ -53,8 +56,21 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:text="TextView"
+                android:fontFamily="@font/one400"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_textView" />
+
+            <TextView
+                android:id="@+id/item_category_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/one400"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/item_date_textView"
                 app:layout_constraintTop_toBottomOf="@+id/item_textView" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
