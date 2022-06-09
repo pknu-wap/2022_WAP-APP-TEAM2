@@ -79,7 +79,7 @@ class ChatsFragment : Fragment() {
     private fun initAddChatButton(){
         binding.addChatButton.setOnClickListener{
             val message = binding.addChatsEditText.text.toString()
-            val chatItem = ChatModel(currentUserModel, message, false, false, System.currentTimeMillis())
+            val chatItem = ChatModel(currentUserModel, message, image = false, toss = false, System.currentTimeMillis())
             chatDB.push().setValue(chatItem)
             binding.addChatsEditText.setText("")
         }
@@ -143,7 +143,8 @@ class ChatsFragment : Fragment() {
     }
 
     private fun sendImage(uri: String){
-        val chatItem = ChatModel(currentUserModel, uri, true, false, System.currentTimeMillis())
+        val chatItem = ChatModel(currentUserModel,
+            uri, image = true, toss = false, System.currentTimeMillis())
         chatDB.push().setValue(chatItem)
         binding.addChatsEditText.setText("")
     }

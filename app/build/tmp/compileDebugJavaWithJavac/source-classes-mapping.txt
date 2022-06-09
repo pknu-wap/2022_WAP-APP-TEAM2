@@ -1,9 +1,9 @@
+com/example/happysejong/BuildConfig.java
+ com.example.happysejong.BuildConfig
 com/example/happysejong/dialog/OtherUserDialogFragmentArgs.java
  com.example.happysejong.dialog.OtherUserDialogFragmentArgs
  com.example.happysejong.dialog.OtherUserDialogFragmentArgs$1
  com.example.happysejong.dialog.OtherUserDialogFragmentArgs$Builder
-com/example/happysejong/BuildConfig.java
- com.example.happysejong.BuildConfig
 com/example/happysejong/ui/users/SignUpFragmentDirections.java
  com.example.happysejong.ui.users.SignUpFragmentDirections
 com/example/happysejong/databinding/ItemChatsSenderBinding.java

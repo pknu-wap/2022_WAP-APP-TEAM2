@@ -30,7 +30,7 @@
 16-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7e1d133c4428365f41082b8d08d79ca1\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
 17
 18    <application
-18-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:8:5-29:19
+18-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:8:5-28:19
 19        android:name="com.example.happysejong.utils.App"
 19-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:9:9-34
 20        android:allowBackup="true"
@@ -51,7 +51,7 @@
 29        android:theme="@style/Theme.HappySejong" >
 29-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:15:9-49
 30        <activity
-30-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:16:9-25:20
+30-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:16:9-24:20
 31            android:name="com.example.happysejong.ui.users.LoginActivity"
 31-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:17:13-51
 32            android:exported="true"
@@ -59,22 +59,22 @@
 33            android:label="@string/title_activity_login" >
 33-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:19:13-57
 34            <intent-filter>
-34-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:20:13-24:29
+34-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:20:17-23:33
 35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:17-69
-35-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:25-66
+35-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:21-73
+35-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:29-70
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:23:17-77
-37-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:23:27-74
+37-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:22:21-81
+37-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:22:31-78
 38            </intent-filter>
 39        </activity>
 40        <activity
-40-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:26:9-28:48
+40-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:25:9-27:48
 41            android:name="com.example.happysejong.ui.MainActivity"
-41-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:27:13-44
+41-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:26:13-44
 42            android:exported="true" />
-42-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:28:13-36
+42-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:27:13-36
 43
 44        <service
 44-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:8:9-14:19
