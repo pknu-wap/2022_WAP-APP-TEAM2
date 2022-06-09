@@ -44,7 +44,7 @@ class SignUpFragment : Fragment() {
             val password = binding.registerPasswordEditText.text.toString()
             val confirm = binding.registerConfirmEditText.text.toString()
             val nickname = binding.registerNickNameEditText.text.toString()
-            val dormitory = "행복 기숙사"
+            val dormitory = binding.registerDormitoryTextView.text.toString()
 
             if (password == confirm) {
                 auth.createUserWithEmailAndPassword(email, password)
