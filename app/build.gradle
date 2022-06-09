@@ -68,4 +68,7 @@ dependencies {
     //glide
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     implementation 'com.github.bumptech.glide:compiler:4.13.0'
+
+    //https://github.com/tommybuonomo/dotsindicator
+    implementation("com.tbuonomo:dotsindicator:4.3")
 }
