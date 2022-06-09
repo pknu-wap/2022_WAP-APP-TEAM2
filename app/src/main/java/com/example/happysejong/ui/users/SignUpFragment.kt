@@ -35,6 +35,7 @@ class SignUpFragment : Fragment() {
     ): View? {
         auth = Firebase.auth
         initSignUpButton()
+        initSelectDormitoryButton()
         return binding.root
     }
     private fun initSignUpButton(){
