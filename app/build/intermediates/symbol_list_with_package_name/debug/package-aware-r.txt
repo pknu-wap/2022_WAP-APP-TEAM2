@@ -2529,6 +2529,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable black_square_border
 drawable bottom_bar_color
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2643,6 +2644,10 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable toss
+drawable tutorial_page1
+drawable tutorial_page2
+drawable tutorial_page3
+drawable tutorial_page4
 drawable worm_dot_background
 drawable worm_dot_stroke_background
 id ALT

@@ -36,6 +36,10 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_tutorial_page4.png.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\tutorial_page4.png"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_japan.png.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\category_japan.png"
     },
@@ -52,12 +56,12 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\category_hamburger.png"
     },
     {
-        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_add_article.xml.flat",
-        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_add_article.xml"
-    },
-    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sign_up.xml.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_add_article.xml.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_add_article.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_korea.png.flat",
@@ -92,8 +96,16 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\navigation\\main_nav_graph.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_tutorial_page1.png.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\tutorial_page1.png"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_page.xml.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_my_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_tutorial_page3.png.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\tutorial_page3.png"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_login_button.png.flat",
@@ -148,12 +160,20 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable-v24\\toss.png"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_tutorial_page2.png.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\tutorial_page2.png"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_etc.png.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\category_etc.png"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_square_border.xml.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\black_square_border.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_west.png.flat",

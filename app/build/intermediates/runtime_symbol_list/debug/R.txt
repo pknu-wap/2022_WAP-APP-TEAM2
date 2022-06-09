@@ -2528,6 +2528,7 @@ int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
+int drawable black_square_border 0x7f0700cc
 int drawable bottom_bar_color 0x7f070058
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
@@ -2642,6 +2643,10 @@ int drawable test_level_drawable 0x7f0700c6
 int drawable tooltip_frame_dark 0x7f0700c7
 int drawable tooltip_frame_light 0x7f0700c8
 int drawable toss 0x7f0700c9
+int drawable tutorial_page1 0x7f0700cd
+int drawable tutorial_page2 0x7f0700ce
+int drawable tutorial_page3 0x7f0700cf
+int drawable tutorial_page4 0x7f0700d0
 int drawable worm_dot_background 0x7f0700ca
 int drawable worm_dot_stroke_background 0x7f0700cb
 int id ALT 0x7f080000
