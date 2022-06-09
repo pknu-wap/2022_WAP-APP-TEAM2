@@ -1,5 +1,7 @@
 package com.example.happysejong.ui.users
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -59,6 +61,20 @@ class SignUpFragment : Fragment() {
             }
         }
     }
+
+    private fun initSelectDormitoryButton(){ // 카테고리 AlertDialog
+        var dormitoryArray: Array<String> = arrayOf("세종 1관", "세종 2관", "행복기숙사")
+        binding.selectDormitoryButton.setOnClickListener {
+            val builder = AlertDialog.Builder(activity)
+            builder.setTitle("기숙사 선택")
+                .setItems(dormitoryArray,
+                    DialogInterface.OnClickListener{ dialog, which ->
+                        binding.registerDormitoryTextView.text = dormitoryArray[which]
+                    })
+            builder.show()
+        }
+    }
+
     private fun successSignUpHandle(nickName: String, dormitory: String){
         Toast.makeText(activity, "회원가입 되었습니다.", Toast.LENGTH_SHORT).show()
         val userId = auth.currentUser?.uid.orEmpty()
