@@ -8,5 +8,10 @@
     "name": "main_nav_graph",
     "navigationXmlIds": [],
     "deepLinks": []
+  },
+  {
+    "name": "splash_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
   }
 ]

@@ -4,12 +4,20 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_my_page.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tutorial2.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_tutorial2.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chats_receiver.xml",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\item_chats_receiver.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_other_user_fragment.xml",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\dialog_other_user_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tutorial1.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_tutorial1.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_up.xml",
@@ -20,8 +28,16 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\item_home_menu.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tutorial4.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_tutorial4.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\test.xml",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_splash.xml"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
@@ -40,6 +56,10 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tutorial3.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_tutorial3.xml"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -54,5 +74,13 @@
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_category.xml",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tutorial.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\fragment_tutorial.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\activity_splash.xml"
     }
 ]

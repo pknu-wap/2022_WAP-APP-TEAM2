@@ -1,4 +1,4 @@
-#Thu Jun 09 15:07:28 KST 2022
+#Thu Jun 09 18:49:33 KST 2022
 path.4=1/classes.dex
 path.3=15/classes.dex
 path.2=13/classes.dex
@@ -9,6 +9,7 @@ path.8=7/classes.dex
 path.7=5/classes.dex
 path.6=4/classes.dex
 path.5=3/classes.dex
+renamed.11=classes12.dex
 renamed.10=classes11.dex
 path.0=classes.dex
 base.4=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
@@ -23,6 +24,7 @@ path.10=classes2.dex
 renamed.0=classes.dex
 base.9=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 path.9=8/classes.dex
+path.11=12/classes.dex
 renamed.7=classes8.dex
 base.8=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 renamed.6=classes7.dex
@@ -31,4 +33,5 @@ renamed.5=classes6.dex
 base.6=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 renamed.4=classes5.dex
 base.5=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.11=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 base.10=C\:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
