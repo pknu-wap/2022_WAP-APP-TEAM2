@@ -2525,6 +2525,15 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable category_all
+drawable category_chicken
+drawable category_china
+drawable category_etc
+drawable category_hamburger
+drawable category_japan
+drawable category_korea
+drawable category_pizza
+drawable category_west
 drawable character
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2712,6 +2721,7 @@ id adjust_width
 id alertTitle
 id aligned
 id all
+id allButton
 id allStates
 id always
 id androidx_window_activity_scope
@@ -2767,6 +2777,8 @@ id chatRecyclerView
 id chatsFragment
 id checkbox
 id checked
+id chickenButton
+id chinaButton
 id chip
 id chip1
 id chip2
@@ -2840,6 +2852,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etcButton
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2867,6 +2880,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hamburgerButton
 id header_title
 id hideable
 id home
@@ -2900,8 +2914,10 @@ id item_date_textView
 id item_textView
 id item_titleView
 id item_touch_helper_previous_elevation
+id japanButton
 id jumpToEnd
 id jumpToStart
+id koreaButton
 id labeled
 id layout
 id layout_gchat_container_me
@@ -3023,6 +3039,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pizzaButton
 id position
 id postLayout
 id progress_circular
@@ -3065,6 +3082,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id selectCategoryButton
 id select_dialog_listview
 id select_dormitory_button
 id selected
@@ -3189,6 +3207,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id westButton
 id wide
 id withText
 id withinBounds
@@ -3465,6 +3484,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
