@@ -58,12 +58,13 @@ class ChatsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        chatDB = Firebase.database.reference.child(DB_CHATS)
 
         chatsKeyViewModel = ViewModelProvider(requireActivity()).get(ChatsKeyViewModel::class.java)
 
         chatsKeyViewModel.chatKey.observe(this){
             chatKey = it
-            chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
+            chatDB = chatDB.child(chatKey)
             getChats()
         }
 

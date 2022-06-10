@@ -33,14 +33,14 @@ class HomeFragment : Fragment() {
 
     private lateinit var chatsKeyViewModel: ChatsKeyViewModel
 
-    private lateinit var articleAdapter: ArticleAdapter
-    private val articleList = mutableListOf<ArticleModel>()
-
     private lateinit var auth: FirebaseAuth
 
     private val articleDB : DatabaseReference by lazy{
         Firebase.database.reference.child(DBKeys.DB_ARTICLES)
     }
+
+    private lateinit var articleAdapter: ArticleAdapter
+    private val articleList = mutableListOf<ArticleModel>()
 
     private val listener = object: ChildEventListener {
         override fun onChildAdded(snapshot: DataSnapshot, previousChildName: String?) {

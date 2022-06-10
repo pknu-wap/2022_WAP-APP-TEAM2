@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavDirections
+import androidx.navigation.fragment.findNavController
 import com.example.happysejong.databinding.FragmentCategoryBinding
 
 class CategoryFragment : Fragment(), View.OnClickListener{
@@ -33,15 +35,20 @@ class CategoryFragment : Fragment(), View.OnClickListener{
 
     override fun onClick(v: View?) {
         when(v?.id) {
-            binding.allButton.id -> {}
-            binding.chickenButton.id -> {}
-            binding.pizzaButton.id -> {}
-            binding.koreaButton.id -> {}
-            binding.japanButton.id -> {}
-            binding.chinaButton.id -> {}
-            binding.westButton.id -> {}
-            binding.hamburgerButton.id -> {}
-            binding.etcButton.id -> {}
+            binding.allButton.id -> { }
+            binding.chickenButton.id -> {
+                val direction : NavDirections = CategoryFragmentDirections.actionCategoryFragmentToCategoryListFragment(
+                    "치킨"
+                )
+                findNavController().navigate(direction)
+            }
+            binding.pizzaButton.id -> { }
+            binding.koreaButton.id -> { }
+            binding.japanButton.id -> { }
+            binding.chinaButton.id -> { }
+            binding.westButton.id -> { }
+            binding.hamburgerButton.id -> { }
+            binding.etcButton.id -> { }
         }
     }
 }

@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_categoryFragment2_to_homeFragment5"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryListFragment"
+            app:destination="@id/categoryListFragment" />
     </fragment>
     <fragment
         android:id="@+id/myPageFragment"
@@ -70,4 +73,13 @@
             android:name="userModel"
             app:argType="com.example.happysejong.model.UserModel" />
     </dialog>
+    <fragment
+        android:id="@+id/categoryListFragment"
+        android:name="com.example.happysejong.ui.category.CategoryListFragment"
+        android:label="fragment_category_list"
+        tools:layout="@layout/fragment_category_list" >
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
 </navigation>

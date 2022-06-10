@@ -2714,6 +2714,7 @@ int id action_bar_spinner 0x7f08003a
 int id action_bar_subtitle 0x7f08003b
 int id action_bar_title 0x7f08003c
 int id action_categoryFragment2_to_homeFragment5 0x7f08003d
+int id action_categoryFragment_to_categoryListFragment 0x7f08025f
 int id action_chatsFragment2_to_homeFragment5 0x7f08003e
 int id action_chatsFragment_to_otherUserDialogFragment 0x7f08003f
 int id action_container 0x7f080040
@@ -2756,7 +2757,6 @@ int id animateToStart 0x7f080064
 int id antiClockwise 0x7f080065
 int id anticipate 0x7f080066
 int id arc 0x7f080067
-int id article_category_textView 0x7f080068
 int id article_location_textView 0x7f080069
 int id article_text_textView 0x7f08006a
 int id article_title_textView 0x7f08006b
@@ -2794,6 +2794,8 @@ int id card_gchat_message_me 0x7f08008a
 int id card_gchat_message_other 0x7f08008b
 int id carryVelocity 0x7f08008c
 int id categoryFragment 0x7f08008d
+int id categoryList 0x7f080260
+int id categoryListFragment 0x7f080261
 int id center 0x7f08008e
 int id center_horizontal 0x7f08008f
 int id center_vertical 0x7f080090
@@ -3371,6 +3373,7 @@ int layout dialog_other_user_fragment 0x7f0b0031
 int layout dot_layout 0x7f0b0032
 int layout fragment_add_article 0x7f0b0033
 int layout fragment_category 0x7f0b0034
+int layout fragment_category_list 0x7f0b0096
 int layout fragment_chats 0x7f0b0035
 int layout fragment_home 0x7f0b0036
 int layout fragment_login 0x7f0b0037
@@ -3451,7 +3454,6 @@ int layout select_dialog_multichoice_material 0x7f0b0081
 int layout select_dialog_singlechoice_material 0x7f0b0082
 int layout spring_dot_layout 0x7f0b0083
 int layout support_simple_spinner_dropdown_item 0x7f0b0084
-int layout test 0x7f0b0085
 int layout test_action_chip 0x7f0b0086
 int layout test_chip_zero_corner_radius 0x7f0b0087
 int layout test_design_checkbox 0x7f0b0088
