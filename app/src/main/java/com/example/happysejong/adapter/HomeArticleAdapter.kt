@@ -22,7 +22,7 @@ class ArticleAdapter(val onItemClicked: (ArticleModel) -> Unit) : ListAdapter<Ar
             binding.itemTitleView.text = articleModel.title 
             binding.itemDateTextView.text = format.format(date).toString()
             binding.itemTextView.text = articleModel.content
-            binding.itemCategoryTextView = articleModel.category
+            binding.itemCategoryTextView.text = articleModel.category
 
             binding.root.setOnClickListener {
                 onItemClicked(articleModel)
