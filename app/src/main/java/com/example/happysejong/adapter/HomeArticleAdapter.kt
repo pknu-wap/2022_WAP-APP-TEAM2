@@ -19,9 +19,10 @@ class ArticleAdapter(val onItemClicked: (ArticleModel) -> Unit) : ListAdapter<Ar
             val format = SimpleDateFormat("MM월 dd일 HH시 mm분")
             val date = Date(articleModel.date)
 
-            binding.itemTitleView.text = articleModel.title
+            binding.itemTitleView.text = articleModel.title 
             binding.itemDateTextView.text = format.format(date).toString()
             binding.itemTextView.text = articleModel.content
+            binding.itemCategoryTextView = articleModel.category
 
             binding.root.setOnClickListener {
                 onItemClicked(articleModel)

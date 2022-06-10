@@ -2650,6 +2650,9 @@ drawable tutorial_page3
 drawable tutorial_page4
 drawable worm_dot_background
 drawable worm_dot_stroke_background
+font one400
+font one_700
+font one_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2936,6 +2939,7 @@ id item1
 id item2
 id item3
 id item4
+id item_category_textView
 id item_date_textView
 id item_textView
 id item_titleView
@@ -3188,6 +3192,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView16
 id textView26
 id textView27

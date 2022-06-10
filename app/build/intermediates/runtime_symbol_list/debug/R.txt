@@ -2649,6 +2649,9 @@ int drawable tutorial_page3 0x7f0700cf
 int drawable tutorial_page4 0x7f0700d0
 int drawable worm_dot_background 0x7f0700ca
 int drawable worm_dot_stroke_background 0x7f0700cb
+int font one400 0x7f140000
+int font one_700 0x7f140001
+int font one_bold 0x7f140002
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2935,6 +2938,7 @@ int id item1 0x7f08011a
 int id item2 0x7f08011b
 int id item3 0x7f08011c
 int id item4 0x7f08011d
+int id item_category_textView 0x7f08025d
 int id item_date_textView 0x7f08011e
 int id item_textView 0x7f08011f
 int id item_titleView 0x7f080120
@@ -3187,6 +3191,7 @@ int id textSpacerNoButtons 0x7f080216
 int id textSpacerNoTitle 0x7f080217
 int id textStart 0x7f080218
 int id textTop 0x7f080219
+int id textView 0x7f08025e
 int id textView16 0x7f08021a
 int id textView26 0x7f08021b
 int id textView27 0x7f08021c

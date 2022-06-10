@@ -148,6 +148,10 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable-v24\\character.jpg"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\font_one_700.otf.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\font\\one_700.otf"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chats_receiver.xml.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\item_chats_receiver.xml"
     },
@@ -176,6 +180,10 @@
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\black_square_border.xml"
     },
     {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\font_one400.otf.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\font\\one400.otf"
+    },
+    {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\drawable_category_west.png.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\drawable\\category_west.png"
     },
@@ -186,6 +194,10 @@
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_home_menu.xml.flat",
         "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\layout\\item_home_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\font_one_bold.otf.flat",
+        "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\font\\one_bold.otf"
     },
     {
         "merged": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tutorial1.xml.flat",
