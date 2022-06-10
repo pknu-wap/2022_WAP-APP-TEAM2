@@ -23,6 +23,7 @@ import com.example.happysejong.adapter.ChatAdapter
 import com.example.happysejong.databinding.FragmentChatsBinding
 import com.example.happysejong.model.ChatModel
 import com.example.happysejong.model.UserModel
+import com.example.happysejong.utils.DBKeys
 import com.example.happysejong.utils.DBKeys.Companion.DB_CHATS
 import com.example.happysejong.utils.DBKeys.Companion.DB_USERS
 import com.google.firebase.auth.FirebaseAuth
@@ -45,6 +46,9 @@ class ChatsFragment : Fragment() {
     private lateinit var currentUserModel: UserModel
     private val userDB: DatabaseReference by lazy{
         Firebase.database.reference.child(DB_USERS).child(auth.currentUser!!.uid)
+    }
+    private val articleDB : DatabaseReference by lazy{
+        Firebase.database.reference.child(DBKeys.DB_ARTICLES)
     }
 
     private val currentUserDBListener = object: ValueEventListener{
@@ -73,7 +77,9 @@ class ChatsFragment : Fragment() {
         initAddChatButton()
         initGalleryButton()
         initTossButton()
-
+        articleDB.child(auth.currentUser!!.uid).child("location").get().addOnSuccessListener {
+            binding.chatLocationTextView.text = it.value.toString()
+        }
         return binding.root
     }
 

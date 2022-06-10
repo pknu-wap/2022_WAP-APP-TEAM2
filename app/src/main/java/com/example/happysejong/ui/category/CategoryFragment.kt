@@ -42,7 +42,7 @@ class CategoryFragment : Fragment(), View.OnClickListener{
             binding.pizzaButton.id -> { }
             binding.koreaButton.id -> {       navigateFragment("한식") }
             binding.japanButton.id -> { navigateFragment("일식") }
-            binding.chinaButton.id -> { navigateFragment("중국집") }
+            binding.chinaButton.id -> { navigateFragment("중식") }
             binding.westButton.id -> { navigateFragment("양식")}
             binding.hamburgerButton.id -> {navigateFragment("햄버거") }
             binding.etcButton.id -> { navigateFragment("기타")}

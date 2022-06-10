@@ -2804,6 +2804,7 @@ id chain
 id chain2
 id chains
 id chatRecyclerView
+id chat_location_textView
 id chatsFragment
 id checkbox
 id checked
