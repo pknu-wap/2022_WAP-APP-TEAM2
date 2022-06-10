@@ -1,36 +1,73 @@
 package com.example.happysejong.adapter
 
+import android.net.Uri
 import android.util.Log
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.net.toUri
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.example.happysejong.R
 import com.example.happysejong.databinding.ItemChatsReceiverBinding
 import com.example.happysejong.databinding.ItemChatsSenderBinding
 import com.example.happysejong.model.ChatModel
+import com.example.happysejong.model.UserModel
+import com.example.happysejong.utils.App
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_RECEIVED
 import com.example.happysejong.utils.ChatUtils.Companion.VIEW_TYPE_MESSAGE_SENT
-import com.example.happysejong.utils.DBKeys
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.text.SimpleDateFormat
+import java.util.*
 
-class ChatAdapter : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
+class ChatAdapter(val onItemClicked: (UserModel) -> Unit) : ListAdapter<ChatModel, RecyclerView.ViewHolder>(diffUtil){
 
     private var auth: FirebaseAuth = Firebase.auth
+    private val timeFormat = SimpleDateFormat("HH시 mm분")
 
     inner class ReceivedMessageHolder(private val binding: ItemChatsReceiverBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
-            binding.textGchatMessageOther.text = chatModel.message
+            val date = Date(chatModel.createdAt)
+            binding.textGchatTimestampOther.text = timeFormat.format(date).toString()
+            binding.textGchatUserOther.text = chatModel.users.nickName
+
+            if(chatModel.image){
+                binding.imageOther.visibility = View.VISIBLE
+                binding.textGchatMessageOther.visibility = View.GONE
+                Glide.with(App.applicationContext()).load(chatModel.message).into(binding.imageOther)
+            }else {
+                binding.imageOther.visibility = View.GONE
+                binding.textGchatMessageOther.visibility = View.VISIBLE
+                binding.textGchatMessageOther.text = chatModel.message
+            }
+            binding.textGchatUserOther.setOnClickListener{
+                onItemClicked(chatModel.users)
+            }
         }
     }
 
     inner class SentMessageHolder(private val binding: ItemChatsSenderBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(chatModel: ChatModel){
-            binding.textGchatMessageMe.text = chatModel.message
+            val date = Date(chatModel.createdAt)
+            binding.textGchatTimestampMe.text = timeFormat.format(date).toString()
+
+            if(chatModel.image){
+                binding.imageMe.visibility = View.VISIBLE
+                binding.textGchatMessageMe.visibility = View.GONE
+
+                Glide.with(App.applicationContext())
+                    .load(chatModel.message)
+                    .into(binding.imageMe)
+
+            }else {
+                binding.imageMe.visibility = View.GONE
+                binding.textGchatMessageMe.visibility = View.VISIBLE
+                binding.textGchatMessageMe.text = chatModel.message
+            }
         }
     }
 

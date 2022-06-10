@@ -8,7 +8,12 @@
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/background_navy"
+        app:cardElevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,10 +29,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:fontFamily="@font/one_bold"
                 android:text="TextView"
-                android:textColor="@color/black"
+                android:textColor="#464646"
                 android:textSize="20sp"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +42,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:fontFamily="@font/one_700"
                 android:text="TextView"
+                android:textColor="#646464"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/item_titleView" />
@@ -48,9 +55,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/one_700"
                 android:text="TextView"
+                android:textColorHint="#828282"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_textView" />
+
+            <TextView
+                android:id="@+id/item_category_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/one_700"
+                android:text="TextView"
+                android:textColor="#828282"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/item_date_textView"
                 app:layout_constraintTop_toBottomOf="@+id/item_textView" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 

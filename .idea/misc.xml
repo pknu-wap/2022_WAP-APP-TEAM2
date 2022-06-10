@@ -26,6 +26,41 @@
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/item_chats_sender.xml" value="0.38645833333333335" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/layout/item_home_menu.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/jaino/2022wap/app/src/main/res/menu/bottom_bar_menu.xml" value="0.2453125" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/font/one_bold.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/activity_login.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/activity_main.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/activity_splash.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/dialog_other_user_fragment.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_add_article.xml" value="0.334375" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_category.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_category_list.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_chats.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_home.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_my_page.xml" value="0.2828125" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_sign_up.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_splash.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/item_chats_receiver.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/item_chats_sender.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/item_home_menu.xml" value="0.2828125" />
+        <entry key="..\:/Users/jaino/Documents/2022_WAP-APP-TEAM2/app/src/main/res/layout/test.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.32" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/border.xml" value="0.319" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/bottom_bar_color.xml" value="0.32" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/category_resize.xml" value="0.315" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.316" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.32" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.168" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.316" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.316" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.32" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.32" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/dialog_other_user_fragment.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_add_article.xml" value="0.22" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_category.xml" value="0.22" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/fragment_sign_up.xml" value="0.29347826086956524" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/item_chats_receiver.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/layout/item_chats_sender.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/leesh/OneDrive - pukyong.ac.kr/git/2022_WAP-APP-TEAM2/app/src/main/res/menu/bottom_bar_menu.xml" value="0.26851851851851855" />
       </map>
     </option>
   </component>

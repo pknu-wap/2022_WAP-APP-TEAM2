@@ -38,6 +38,7 @@ class MyPageFragment : Fragment() {
             auth.signOut()
             val intent = Intent(activity, LoginActivity::class.java)
             startActivity(intent)
+            activity?.finish()
         }
         return binding.root
     }

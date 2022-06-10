@@ -1,23 +1,37 @@
 package com.example.happysejong.ui.chats
 
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
+import androidx.core.content.PackageManagerCompat
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavDirections
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.happysejong.adapter.ChatAdapter
 import com.example.happysejong.databinding.FragmentChatsBinding
 import com.example.happysejong.model.ChatModel
 import com.example.happysejong.model.UserModel
+import com.example.happysejong.utils.DBKeys
 import com.example.happysejong.utils.DBKeys.Companion.DB_CHATS
 import com.example.happysejong.utils.DBKeys.Companion.DB_USERS
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.util.*
+import java.util.jar.Manifest
 
 class ChatsFragment : Fragment() {
 
@@ -26,13 +40,16 @@ class ChatsFragment : Fragment() {
     private lateinit var chatDB: DatabaseReference
     private val auth = FirebaseAuth.getInstance()
 
+    lateinit var chatsKeyViewModel: ChatsKeyViewModel
+    private var chatKey = auth.currentUser!!.uid
+
     private lateinit var currentUserModel: UserModel
     private val userDB: DatabaseReference by lazy{
         Firebase.database.reference.child(DB_USERS).child(auth.currentUser!!.uid)
     }
-
-    private val chatList = mutableListOf<ChatModel>()
-    private val adapter = ChatAdapter()
+    private val articleDB : DatabaseReference by lazy{
+        Firebase.database.reference.child(DBKeys.DB_ARTICLES)
+    }
 
     private val currentUserDBListener = object: ValueEventListener{
         override fun onDataChange(snapshot: DataSnapshot) {
@@ -45,27 +62,47 @@ class ChatsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        chatDB = Firebase.database.reference.child(DB_CHATS)
 
-        val args: ChatsFragmentArgs by navArgs()
-        val chatKey = args.chatKey
-        chatDB = Firebase.database.reference.child(DB_CHATS).child(chatKey)
-        //bar에서 chat키를 눌렀을 경우 구현해야함 디폴트 값: auth.currentUser() 채팅방이 없는 경우도 구현
-        // 방 파기시 본인 uid로 생성된 방을 삭제
+        chatsKeyViewModel = ViewModelProvider(requireActivity()).get(ChatsKeyViewModel::class.java)
+
+        chatsKeyViewModel.chatKey.observe(this){
+            chatKey = it
+            chatDB = chatDB.child(chatKey)
+            getChats()
+        }
+
         userDB.addValueEventListener(currentUserDBListener)
 
-        getChats()
         initAddChatButton()
-
+        initGalleryButton()
+        initTossButton()
+        articleDB.child(auth.currentUser!!.uid).child("location").get().addOnSuccessListener {
+            binding.chatLocationTextView.text = it.value.toString()
+        }
         return binding.root
     }
+
     private fun initAddChatButton(){
         binding.addChatButton.setOnClickListener{
             val message = binding.addChatsEditText.text.toString()
-            val chatItem = ChatModel(currentUserModel, message, System.currentTimeMillis())
+            val chatItem = ChatModel(currentUserModel, message, image = false, toss = false, System.currentTimeMillis())
             chatDB.push().setValue(chatItem)
+            binding.addChatsEditText.setText("")
         }
     }
+
+
     private fun getChats(){
+        val chatList = mutableListOf<ChatModel>()
+
+        val adapter = ChatAdapter(onItemClicked = { userModel ->
+            val direction : NavDirections  = ChatsFragmentDirections
+                .actionChatsFragmentToOtherUserDialogFragment(userModel)
+            findNavController().navigate(direction)
+
+        })
+
         chatDB.addChildEventListener(object: ChildEventListener{
             override fun onChildAdded(snapshot: DataSnapshot, previousChildName: String?) {
                 val chatItem = snapshot.getValue(ChatModel::class.java)
@@ -82,7 +119,58 @@ class ChatsFragment : Fragment() {
             override fun onChildMoved(snapshot: DataSnapshot, previousChildName: String?) {}
             override fun onCancelled(error: DatabaseError) {}
         })
+
         binding.chatRecyclerView.adapter = adapter
         binding.chatRecyclerView.layoutManager = LinearLayoutManager(context)
     }
+
+    private fun initGalleryButton(){
+        binding.galleryButton.setOnClickListener{
+            when (PackageManager.PERMISSION_GRANTED) {
+                ContextCompat.checkSelfPermission(
+                    requireContext(),
+                    android.Manifest.permission.READ_EXTERNAL_STORAGE
+                )
+                -> {
+                    selectImageFromGallery()
+                }
+                else -> {
+                    requestPermissionLauncher.launch(android.Manifest.permission.READ_EXTERNAL_STORAGE)
+                }
+            }
+        }
+    }
+
+    private val selectImageFromGalleryResult =
+        registerForActivityResult(ActivityResultContracts.GetContent()) {
+            uri: Uri? -> uri?.let{
+                val imageUri = uri.toString()
+                sendImage(imageUri)
+        }
+    }
+
+    private fun sendImage(uri: String){
+        val chatItem = ChatModel(currentUserModel,
+            uri, image = true, toss = false, System.currentTimeMillis())
+        chatDB.push().setValue(chatItem)
+        binding.addChatsEditText.setText("")
+    }
+
+    private val requestPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
+            if (isGranted) {
+                selectImageFromGallery()
+            } else {
+                Toast.makeText(context, "권한을 허용되지 않았습니다.", Toast.LENGTH_SHORT).show();
+            }
+        }
+
+    private fun selectImageFromGallery() = selectImageFromGalleryResult.launch("image/*")
+
+    private fun initTossButton(){
+        binding.tossButton.setOnClickListener{
+
+        }
+    }
+
 }

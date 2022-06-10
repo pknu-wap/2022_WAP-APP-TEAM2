@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\59cc30cadce8dad7ce5db04775ca16d5\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaino\\2022wap\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "820"
+                        "endOffsets": "834"
                     },
                     "to": {
                         "startLines": "9",

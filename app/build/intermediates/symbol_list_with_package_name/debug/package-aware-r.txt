@@ -392,6 +392,7 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr dampingRatio
 attr data
 attr dataPattern
 attr dayInvalidStyle
@@ -418,6 +419,15 @@ attr dividerInsetStart
 attr dividerPadding
 attr dividerThickness
 attr dividerVertical
+attr dotsClickable
+attr dotsColor
+attr dotsCornerRadius
+attr dotsElevation
+attr dotsSize
+attr dotsSpacing
+attr dotsStrokeColor
+attr dotsStrokeWidth
+attr dotsWidthFactor
 attr dragDirection
 attr dragScale
 attr dragThreshold
@@ -894,6 +904,7 @@ attr pressedTranslationZ
 attr primaryActivityName
 attr progressBarPadding
 attr progressBarStyle
+attr progressMode
 attr quantizeMotionInterpolator
 attr quantizeMotionPhase
 attr quantizeMotionSteps
@@ -935,6 +946,7 @@ attr secondaryActivityName
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr selectedDotColor
 attr selectionRequired
 attr selectorSize
 attr setsTag
@@ -993,6 +1005,7 @@ attr state_lifted
 attr statusBarBackground
 attr statusBarForeground
 attr statusBarScrim
+attr stiffness
 attr strokeColor
 attr strokeWidth
 attr subMenuArrow
@@ -1262,6 +1275,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color background_navy
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -2515,6 +2529,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable black_square_border
 drawable bottom_bar_color
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2524,6 +2539,15 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable category_all
+drawable category_chicken
+drawable category_china
+drawable category_etc
+drawable category_hamburger
+drawable category_japan
+drawable category_korea
+drawable category_pizza
+drawable category_west
 drawable character
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2549,6 +2573,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dot_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_add_24
@@ -2612,11 +2637,22 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable spring_dot_background
+drawable spring_dot_stroke_background
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable toss
+drawable tutorial_page1
+drawable tutorial_page2
+drawable tutorial_page3
+drawable tutorial_page4
+drawable worm_dot_background
+drawable worm_dot_stroke_background
+font one400
+font one_700
+font one_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2679,7 +2715,9 @@ id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
 id action_categoryFragment2_to_homeFragment5
+id action_categoryFragment_to_categoryListFragment
 id action_chatsFragment2_to_homeFragment5
+id action_chatsFragment_to_otherUserDialogFragment
 id action_container
 id action_context_bar
 id action_divider
@@ -2696,6 +2734,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_myPageFragment2_to_homeFragment5
 id action_signUpFragment_to_loginFragment
+id action_splashFragment_to_tutorialFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2710,6 +2749,7 @@ id adjust_width
 id alertTitle
 id aligned
 id all
+id allButton
 id allStates
 id always
 id androidx_window_activity_scope
@@ -2718,6 +2758,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id article_location_textView
 id article_text_textView
 id article_title_textView
 id asConfigured
@@ -2743,16 +2784,20 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_close
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
 id cardView
+id cardView2
 id card_gchat_message_me
 id card_gchat_message_other
 id carryVelocity
 id categoryFragment
+id categoryList
+id categoryListFragment
 id center
 id center_horizontal
 id center_vertical
@@ -2760,9 +2805,12 @@ id chain
 id chain2
 id chains
 id chatRecyclerView
+id chat_location_textView
 id chatsFragment
 id checkbox
 id checked
+id chickenButton
+id chinaButton
 id chip
 id chip1
 id chip2
@@ -2805,6 +2853,8 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dialog_other_user_dormitory
+id dialog_other_user_name
 id dimensions
 id direct
 id disableHome
@@ -2813,6 +2863,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dormitoryTextView
+id dot
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2834,6 +2885,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etcButton
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2852,6 +2904,7 @@ id frost
 id galleryButton
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id goAddArticleButton
 id gone
 id graph
@@ -2860,6 +2913,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hamburgerButton
 id header_title
 id hideable
 id home
@@ -2876,7 +2930,10 @@ id ignoreRequest
 id image
 id imageView
 id imageView12
+id imageView2
 id image_gchat_profile_other
+id image_me
+id image_other
 id immediateStop
 id included
 id info
@@ -2887,12 +2944,15 @@ id item1
 id item2
 id item3
 id item4
+id item_category_textView
 id item_date_textView
 id item_textView
 id item_titleView
 id item_touch_helper_previous_elevation
+id japanButton
 id jumpToEnd
 id jumpToStart
+id koreaButton
 id labeled
 id layout
 id layout_gchat_container_me
@@ -2997,6 +3057,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id otherUserDialogFragment
 id outline
 id outward
 id overshoot
@@ -3013,6 +3074,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pizzaButton
 id position
 id postLayout
 id progress_circular
@@ -3025,6 +3087,7 @@ id registerEmailEditText
 id registerNickNameEditText
 id registerPasswordEditText
 id register_dormitory_textView
+id report_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3054,6 +3117,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id selectCategoryButton
 id select_dialog_listview
 id select_dormitory_button
 id selected
@@ -3081,11 +3145,16 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id splashFragment
+id splash_nav_graph
+id splash_nav_host_fragment
 id spline
 id split_action_bar
 id spread
 id spread_inside
 id spring
+id spring_dot
+id spring_dots_indicator
 id square
 id src_atop
 id src_in
@@ -3128,7 +3197,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView16
+id textView2
 id textView26
 id textView27
 id text_gchat_date_me
@@ -3164,12 +3235,18 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tutorialFragment
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
 id vertical_only
+id view
+id view2
+id view3
+id view4
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3178,9 +3255,11 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id westButton
 id wide
 id withText
 id withinBounds
+id worm_dot
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -3276,6 +3355,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3294,13 +3374,22 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_other_user_fragment
+layout dot_layout
 layout fragment_add_article
 layout fragment_category
+layout fragment_category_list
 layout fragment_chats
 layout fragment_home
 layout fragment_login
 layout fragment_my_page
 layout fragment_sign_up
+layout fragment_splash
+layout fragment_tutorial
+layout fragment_tutorial1
+layout fragment_tutorial2
+layout fragment_tutorial3
+layout fragment_tutorial4
 layout item_chats_receiver
 layout item_chats_sender
 layout item_home_menu
@@ -3368,6 +3457,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spring_dot_layout
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -3384,6 +3474,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout worm_dot_layout
 menu bottom_bar_menu
 menu example_menu
 menu example_menu2
@@ -3391,6 +3482,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation login_nav_graph
 navigation main_nav_graph
+navigation splash_nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3452,6 +3544,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
@@ -4637,6 +4730,7 @@ styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
 styleable DialogFragmentNavigator android_name
+styleable DotsIndicator dotsClickable dotsColor dotsCornerRadius dotsElevation dotsSize dotsSpacing dotsWidthFactor progressMode selectedDotColor
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
 styleable ExtendedFloatingActionButton collapsedSize elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
@@ -4729,6 +4823,7 @@ styleable Spinner android_entries android_popupBackground android_prompt android
 styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
 styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
 styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
+styleable SpringDotsIndicator dampingRatio dotsClickable dotsColor dotsCornerRadius dotsSize dotsSpacing dotsStrokeColor dotsStrokeWidth stiffness
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
@@ -4752,6 +4847,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable WormDotsIndicator dotsClickable dotsColor dotsCornerRadius dotsSize dotsSpacing dotsStrokeColor dotsStrokeWidth
 styleable include constraintSet
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jaino\\2022wap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
+            "outputFile": "C:\\Users\\jaino\\Documents\\2022_WAP-APP-TEAM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaino\\gradle\\wrapper\\caches\\transforms-3\\6889d94a57322dd21203dfc105eacada\\transformed\\jetified-play-services-base-18.0.1\\res\\values-mn\\values.xml",

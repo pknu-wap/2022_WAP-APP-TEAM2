@@ -6,82 +6,82 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
+8-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml
+9-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:22-65
-14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-14-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
-14-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
-15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7e1d133c4428365f41082b8d08d79ca1\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7e1d133c4428365f41082b8d08d79ca1\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
-16
-17    <application
-17-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:7:5-33:19
-18        android:allowBackup="true"
-18-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:8:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:9:9-43
-23        android:label="@string/app_name"
-23-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:10:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:11:9-54
-25        android:supportsRtl="true"
-25-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:12:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.HappySejong" >
-27-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:13:9-49
-28        <activity
-28-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:14:9-16:39
-29            android:name="com.example.happysejong.ui.SettingActivity"
-29-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:15:13-47
-30            android:exported="true" />
-30-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:16:13-36
-31        <activity
-31-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:17:9-26:20
-32            android:name="com.example.happysejong.ui.users.LoginActivity"
-32-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:18:13-51
-33            android:exported="true"
-33-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:19:13-36
-34            android:label="@string/title_activity_login" >
-34-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:20:13-57
-35            <intent-filter>
-35-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:21:13-25:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:17-69
-36-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:22:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:24:17-77
-38-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:24:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:27:9-29:39
-42            android:name="com.example.happysejong.ui.ChatActivity"
-42-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:28:13-44
-43            android:exported="true" />
-43-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:29:13-36
+11-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\72905eeab4398bf4978c0fa7b69be767\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\1a1ee36cb5a1e62911c943a33dd5f830\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7e1d133c4428365f41082b8d08d79ca1\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7e1d133c4428365f41082b8d08d79ca1\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:8:5-32:19
+19        android:name="com.example.happysejong.utils.App"
+19-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:9:9-34
+20        android:allowBackup="true"
+20-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:10:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\jaino\gradle\wrapper\caches\transforms-3\7d9ade82a90132044dd894aeb0707c3e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:14:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.HappySejong" >
+29-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:15:9-49
+30        <activity
+30-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:16:9-23:20
+31            android:name="com.example.happysejong.ui.splash.SplashActivity"
+31-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:17:13-53
+32            android:exported="true" >
+32-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:20:17-68
+34-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:17-76
+36-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:24:9-28:20
+40            android:name="com.example.happysejong.ui.users.LoginActivity"
+40-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:25:13-51
+41            android:exported="true"
+41-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:26:13-36
+42            android:label="@string/title_activity_login" >
+42-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:27:13-57
+43        </activity>
 44        <activity
-44-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:30:9-32:48
+44-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:29:9-31:39
 45            android:name="com.example.happysejong.ui.MainActivity"
-45-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:31:13-44
+45-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:30:13-44
 46            android:exported="true" />
-46-->C:\Users\jaino\2022wap\app\src\main\AndroidManifest.xml:32:13-36
+46-->C:\Users\jaino\Documents\2022_WAP-APP-TEAM2\app\src\main\AndroidManifest.xml:31:13-36
 47
 48        <service
 48-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\jaino\gradle\wrapper\caches\transforms-3\671536490e7eadae10f85459d901fbf6\transformed\jetified-firebase-auth-ktx-21.0.3\AndroidManifest.xml:8:9-14:19
