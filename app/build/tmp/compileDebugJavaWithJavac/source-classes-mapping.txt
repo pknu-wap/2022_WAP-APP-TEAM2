@@ -1,9 +1,3 @@
-com/example/happysejong/dialog/OtherUserDialogFragmentArgs.java
- com.example.happysejong.dialog.OtherUserDialogFragmentArgs
- com.example.happysejong.dialog.OtherUserDialogFragmentArgs$1
- com.example.happysejong.dialog.OtherUserDialogFragmentArgs$Builder
-com/example/happysejong/BuildConfig.java
- com.example.happysejong.BuildConfig
 com/example/happysejong/ui/users/SignUpFragmentDirections.java
  com.example.happysejong.ui.users.SignUpFragmentDirections
 com/example/happysejong/databinding/FragmentTutorialBinding.java
@@ -12,14 +6,14 @@ com/example/happysejong/databinding/FragmentTutorial1Binding.java
  com.example.happysejong.databinding.FragmentTutorial1Binding
 com/example/happysejong/ui/category/CategoryFragmentDirections.java
  com.example.happysejong.ui.category.CategoryFragmentDirections
+ com.example.happysejong.ui.category.CategoryFragmentDirections$1
+ com.example.happysejong.ui.category.CategoryFragmentDirections$ActionCategoryFragmentToCategoryListFragment
 com/example/happysejong/databinding/ActivitySplashBinding.java
  com.example.happysejong.databinding.ActivitySplashBinding
 com/example/happysejong/databinding/ActivityLoginBinding.java
  com.example.happysejong.databinding.ActivityLoginBinding
 com/example/happysejong/databinding/ItemChatsReceiverBinding.java
  com.example.happysejong.databinding.ItemChatsReceiverBinding
-com/example/happysejong/databinding/TestBinding.java
- com.example.happysejong.databinding.TestBinding
 com/example/happysejong/ui/mypage/MyPageFragmentDirections.java
  com.example.happysejong.ui.mypage.MyPageFragmentDirections
 com/example/happysejong/databinding/ItemHomeMenuBinding.java
@@ -28,6 +22,10 @@ com/example/happysejong/databinding/FragmentCategoryBinding.java
  com.example.happysejong.databinding.FragmentCategoryBinding
 com/example/happysejong/databinding/FragmentChatsBinding.java
  com.example.happysejong.databinding.FragmentChatsBinding
+com/example/happysejong/dialog/OtherUserDialogFragmentArgs.java
+ com.example.happysejong.dialog.OtherUserDialogFragmentArgs
+ com.example.happysejong.dialog.OtherUserDialogFragmentArgs$1
+ com.example.happysejong.dialog.OtherUserDialogFragmentArgs$Builder
 com/example/happysejong/databinding/DialogOtherUserFragmentBinding.java
  com.example.happysejong.databinding.DialogOtherUserFragmentBinding
 com/example/happysejong/ui/users/LoginFragmentDirections.java
@@ -42,6 +40,8 @@ com/example/happysejong/databinding/FragmentTutorial3Binding.java
  com.example.happysejong.databinding.FragmentTutorial3Binding
 com/example/happysejong/databinding/ItemChatsSenderBinding.java
  com.example.happysejong.databinding.ItemChatsSenderBinding
+com/example/happysejong/databinding/FragmentCategoryListBinding.java
+ com.example.happysejong.databinding.FragmentCategoryListBinding
 com/example/happysejong/ui/tutorial/SplashFragmentDirections.java
  com.example.happysejong.ui.tutorial.SplashFragmentDirections
 com/example/happysejong/ui/chats/ChatsFragmentDirections.java
@@ -54,12 +54,18 @@ com/example/happysejong/databinding/FragmentHomeBinding.java
  com.example.happysejong.databinding.FragmentHomeBinding
 com/example/happysejong/databinding/FragmentMyPageBinding.java
  com.example.happysejong.databinding.FragmentMyPageBinding
+com/example/happysejong/BuildConfig.java
+ com.example.happysejong.BuildConfig
 com/example/happysejong/ui/home/AddArticleFragmentDirections.java
  com.example.happysejong.ui.home.AddArticleFragmentDirections
 com/example/happysejong/databinding/ActivityMainBinding.java
  com.example.happysejong.databinding.ActivityMainBinding
 com/example/happysejong/databinding/FragmentAddArticleBinding.java
  com.example.happysejong.databinding.FragmentAddArticleBinding
+com/example/happysejong/ui/category/CategoryListFragmentArgs.java
+ com.example.happysejong.ui.category.CategoryListFragmentArgs
+ com.example.happysejong.ui.category.CategoryListFragmentArgs$1
+ com.example.happysejong.ui.category.CategoryListFragmentArgs$Builder
 com/example/happysejong/databinding/FragmentSignUpBinding.java
  com.example.happysejong.databinding.FragmentSignUpBinding
 com/example/happysejong/ui/home/HomeFragmentDirections.java

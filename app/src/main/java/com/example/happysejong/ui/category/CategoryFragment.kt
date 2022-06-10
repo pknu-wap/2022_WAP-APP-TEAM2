@@ -37,18 +37,21 @@ class CategoryFragment : Fragment(), View.OnClickListener{
         when(v?.id) {
             binding.allButton.id -> { }
             binding.chickenButton.id -> {
-                val direction : NavDirections = CategoryFragmentDirections.actionCategoryFragmentToCategoryListFragment(
-                    "치킨"
-                )
-                findNavController().navigate(direction)
+                navigateFragment("치킨")
             }
             binding.pizzaButton.id -> { }
-            binding.koreaButton.id -> { }
-            binding.japanButton.id -> { }
-            binding.chinaButton.id -> { }
-            binding.westButton.id -> { }
-            binding.hamburgerButton.id -> { }
-            binding.etcButton.id -> { }
+            binding.koreaButton.id -> {       navigateFragment("한식") }
+            binding.japanButton.id -> { navigateFragment("일식") }
+            binding.chinaButton.id -> { navigateFragment("중국집") }
+            binding.westButton.id -> { navigateFragment("양식")}
+            binding.hamburgerButton.id -> {navigateFragment("햄버거") }
+            binding.etcButton.id -> { navigateFragment("기타")}
         }
+    }
+    private fun navigateFragment(category: String){
+        val direction : NavDirections = CategoryFragmentDirections.actionCategoryFragmentToCategoryListFragment(
+            category
+        )
+        findNavController().navigate(direction)
     }
 }
