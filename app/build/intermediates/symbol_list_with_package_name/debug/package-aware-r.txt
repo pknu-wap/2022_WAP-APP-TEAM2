@@ -2791,6 +2791,7 @@ id callMeasure
 id cancel_action
 id cancel_button
 id cardView
+id cardView2
 id card_gchat_message_me
 id card_gchat_message_other
 id carryVelocity
@@ -2929,6 +2930,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView12
+id imageView2
 id image_gchat_profile_other
 id image_me
 id image_other
@@ -3197,6 +3199,7 @@ id textStart
 id textTop
 id textView
 id textView16
+id textView2
 id textView26
 id textView27
 id text_gchat_date_me

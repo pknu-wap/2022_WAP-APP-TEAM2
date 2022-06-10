@@ -2790,6 +2790,7 @@ int id callMeasure 0x7f080086
 int id cancel_action 0x7f080087
 int id cancel_button 0x7f080088
 int id cardView 0x7f080089
+int id cardView2 0x7f080264
 int id card_gchat_message_me 0x7f08008a
 int id card_gchat_message_other 0x7f08008b
 int id carryVelocity 0x7f08008c
@@ -2928,6 +2929,7 @@ int id ignoreRequest 0x7f08010d
 int id image 0x7f08010e
 int id imageView 0x7f08010f
 int id imageView12 0x7f080110
+int id imageView2 0x7f080263
 int id image_gchat_profile_other 0x7f080111
 int id image_me 0x7f080112
 int id image_other 0x7f080113
@@ -3196,6 +3198,7 @@ int id textStart 0x7f080218
 int id textTop 0x7f080219
 int id textView 0x7f08025e
 int id textView16 0x7f08021a
+int id textView2 0x7f080265
 int id textView26 0x7f08021b
 int id textView27 0x7f08021c
 int id text_gchat_date_me 0x7f08021d
